@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "aa4de15eba24c43412099365bdb10ec688f6ae41",
-  "sourceCommitDate": "2026-09-09T09:32:40-06:00",
+  "sourceCommit": "df52d2313f05ef9da2f0fac0de922cd5c79af01d",
+  "sourceCommitDate": "2026-09-09T09:53:38-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -73,8 +73,8 @@
       "edition": "natsec",
       "key": "assessprint",
       "name": "Assessment",
-      "bytes": 159578,
-      "sha256": "bba7fa2cf9cd4a0401f0ca11df9b90b51ecd4c9d8a068c00489d04123b4e3da1"
+      "bytes": 163972,
+      "sha256": "4ebcf0946f3ded2a402bdf96ec48d41249c84108c625fb5e0f96f59c29e8acd7"
     },
     {
       "path": "reports/natsec/authprint.html",
@@ -82,8 +82,8 @@
       "edition": "natsec",
       "key": "authprint",
       "name": "Authorization readiness receipt",
-      "bytes": 115356,
-      "sha256": "0520b8c824f6fadf0162505c659d327e9db4fadc444f53b01cfec600e1a041b9"
+      "bytes": 119750,
+      "sha256": "7d75ed7884f6492395d1863a1e4016d5078e91ba045718b1b6c20a29ff0e9d74"
     },
     {
       "path": "reports/natsec/closeoutprint.html",
@@ -91,8 +91,8 @@
       "edition": "natsec",
       "key": "closeoutprint",
       "name": "Closeout receipt",
-      "bytes": 120515,
-      "sha256": "2025c6a9da96840159fc85d9e45869731bdcebae71444a9b90dad1577cda794f"
+      "bytes": 124909,
+      "sha256": "b6a234191176ed11627a3fde110c9041f307979e228d5e3a6dccddeb86b9d353"
     },
     {
       "path": "reports/natsec/conopsdoc.html",
@@ -100,8 +100,8 @@
       "edition": "natsec",
       "key": "conopsdoc",
       "name": "Concept of operations",
-      "bytes": 191222,
-      "sha256": "e04aa2e63f2cb085f55c964376b1a11081d64fb4f2d2e9d4c1a859c1889178a9"
+      "bytes": 195616,
+      "sha256": "f0dedf49cf8172491e2df56a09839d0a848512df70db8a3e54019e19e195f7e4"
     },
     {
       "path": "reports/natsec/deliverynote.html",
@@ -109,8 +109,8 @@
       "edition": "natsec",
       "key": "deliverynote",
       "name": "Delivery note",
-      "bytes": 110386,
-      "sha256": "82e8f7e03c935805304dc026abe871383e28c168ceac84a91f5aa8309961a086"
+      "bytes": 114780,
+      "sha256": "4773ee9dfc00d5cbb7da205267c3a685b13ab7b497ddb1f4c6dcd578e7feff30"
     },
     {
       "path": "reports/natsec/execbrief.html",
@@ -118,8 +118,8 @@
       "edition": "natsec",
       "key": "execbrief",
       "name": "Executive brief",
-      "bytes": 111250,
-      "sha256": "4735375a4e19eb50422d824627dbb4c72c429f91fca87a740ad7d9593339e02c"
+      "bytes": 115644,
+      "sha256": "f3fd4988e32724699d93562f8b9e9dbefb291f56bf1d187c73e066f38ab7d68f"
     },
     {
       "path": "reports/natsec/foundationsprint.html",
@@ -127,8 +127,8 @@
       "edition": "natsec",
       "key": "foundationsprint",
       "name": "Foundations receipt",
-      "bytes": 133212,
-      "sha256": "0455add6ef0dbb3119f56a832a61d7d25408368e2b7c9dcaa203715c89e4a82b"
+      "bytes": 137606,
+      "sha256": "7194464415992f6e2ccbbed3620a2832773e5504bfadf356879af4e8570d3b81"
     },
     {
       "path": "reports/natsec/gssreceipt.html",
@@ -136,8 +136,8 @@
       "edition": "natsec",
       "key": "gssreceipt",
       "name": "GSS exit receipt",
-      "bytes": 116886,
-      "sha256": "af8f44417be43dc0aad2a0dc96f405c0f4b64632e63b6491d4a5d6fc3b7b2e3d"
+      "bytes": 121280,
+      "sha256": "e1699399256880dc14e1745600d644a46d1b8436b66797f2f9666ddc49c4ed25"
     },
     {
       "path": "reports/natsec/poamprint.html",
@@ -145,8 +145,8 @@
       "edition": "natsec",
       "key": "poamprint",
       "name": "Plan of action & milestones",
-      "bytes": 107037,
-      "sha256": "828769094a5afd66a78f42f437929eb941fea7472a69ab4099e7ad30242e928a"
+      "bytes": 111431,
+      "sha256": "0b326da0e1bb179c52ccfe80b862770b76726a97760c17e5a7ecb2fb13af1e10"
     },
     {
       "path": "reports/natsec/readyprint.html",
@@ -154,8 +154,8 @@
       "edition": "natsec",
       "key": "readyprint",
       "name": "Readiness report",
-      "bytes": 110337,
-      "sha256": "ca08fabb973f772727115fe2792261c91c41376d5753ee9dc9c46be2fabebe6b"
+      "bytes": 114731,
+      "sha256": "60c3b7497f3eb6654518cc999136511922cfa819910948ea5e68bca721bbc515"
     },
     {
       "path": "reports/natsec/roadprint.html",
@@ -163,8 +163,8 @@
       "edition": "natsec",
       "key": "roadprint",
       "name": "The road ahead",
-      "bytes": 386034,
-      "sha256": "024c2e68df18f1620dee78fad11e9600dd3f4cd8b15d20c613c9db050ba9848d"
+      "bytes": 390428,
+      "sha256": "0c95b07fcef3f94bae04870b893ddcbbce2bca4f893bdc9f130bfa93488ac6ab"
     },
     {
       "path": "reports/natsec/sspprint.html",
@@ -172,8 +172,8 @@
       "edition": "natsec",
       "key": "sspprint",
       "name": "System security plan — draft",
-      "bytes": 215988,
-      "sha256": "6157905ae6482ca24d73e923d2c3b92e7c0ca6fb9f6b49bd4851c55ff23bea43"
+      "bytes": 220382,
+      "sha256": "8f4cb4b0e691c5f0d74c0998336575193983c6cb426f0aef2c2ec159a2c9519c"
     },
     {
       "path": "reports/natsec/storyboardprint.html",
@@ -181,8 +181,8 @@
       "edition": "natsec",
       "key": "storyboardprint",
       "name": "Transformation storyboard",
-      "bytes": 134839,
-      "sha256": "8a981b9090a04938ffc5f6e9fa6586077d9a086b2197ff0258cdf9a3dabb030d"
+      "bytes": 139233,
+      "sha256": "085305bd11dcb4117c251727259b9f2f3793c5be85929f226eff45e2da720838"
     },
     {
       "path": "reports/natsec/techanalysis.html",
@@ -190,8 +190,8 @@
       "edition": "natsec",
       "key": "techanalysis",
       "name": "Technical analysis",
-      "bytes": 168846,
-      "sha256": "7cce30a0bbc1497b0b6a1c55b07efbba2415bfccf511de101ab3950020445ae7"
+      "bytes": 173240,
+      "sha256": "89437755a2d01f2f4851085ee74741fb11b552428bee44c42768ca3f5daf6126"
     },
     {
       "path": "reports/natsec/transplan.html",
@@ -199,8 +199,8 @@
       "edition": "natsec",
       "key": "transplan",
       "name": "Transformation plan",
-      "bytes": 165082,
-      "sha256": "3426f9571bb113ec1bc8be484acd11df159ef8adfc9180a2e9af4069815b739a"
+      "bytes": 169476,
+      "sha256": "cfb0f401c5584c2c41c141a790f5cf91b876a4e525e1f15e7551d872bea14b45"
     },
     {
       "path": "reports/pubsec/assessprint.html",
@@ -208,8 +208,8 @@
       "edition": "pubsec",
       "key": "assessprint",
       "name": "Assessment",
-      "bytes": 159884,
-      "sha256": "3d09fda013331ea2973fcf9177f49d1c3b5936989b6f6473068688817d34291a"
+      "bytes": 164278,
+      "sha256": "76eaa0b65a7df0e5bacad2b899210de07baf66cb0a4cb721fc3ecb2e3a3d166b"
     },
     {
       "path": "reports/pubsec/authprint.html",
@@ -217,8 +217,8 @@
       "edition": "pubsec",
       "key": "authprint",
       "name": "Authorization readiness receipt",
-      "bytes": 115662,
-      "sha256": "d61864849280e9c0a8a9aeb98b1f9f4c3ddd6da6e19f14df02f7b3ac7530ac39"
+      "bytes": 120056,
+      "sha256": "766add3bf39dcf9e5b0b6d529698ff5fdf4df549702ece334ca7400732fbd9b7"
     },
     {
       "path": "reports/pubsec/closeoutprint.html",
@@ -226,8 +226,8 @@
       "edition": "pubsec",
       "key": "closeoutprint",
       "name": "Closeout receipt",
-      "bytes": 120821,
-      "sha256": "1d805a8255f48712e415df723b5db4598eee64c50d94700b5bfbd7a6c8fcb123"
+      "bytes": 125215,
+      "sha256": "8b44630a4fecae3c67857d81bbf5881ac18bb17feeaba68279c2d3c92e203333"
     },
     {
       "path": "reports/pubsec/conopsdoc.html",
@@ -235,8 +235,8 @@
       "edition": "pubsec",
       "key": "conopsdoc",
       "name": "Concept of operations",
-      "bytes": 191528,
-      "sha256": "86257a4464ad2b59a434877e6b006834f7180430be8a405a554d408f6c31cc2f"
+      "bytes": 195922,
+      "sha256": "3c2db001456c20ff676f1e7f85578d27d46c6a4b10db1570c424d06785e98e4d"
     },
     {
       "path": "reports/pubsec/deliverynote.html",
@@ -244,8 +244,8 @@
       "edition": "pubsec",
       "key": "deliverynote",
       "name": "Delivery note",
-      "bytes": 110692,
-      "sha256": "0c49ccdfa81ac27af561f1072a6c051016f002fbdec62c90105c32df2cd7174e"
+      "bytes": 115086,
+      "sha256": "707185255ad9d50a113d1a8c8eee579f64e8b561743605597daacfabfb448769"
     },
     {
       "path": "reports/pubsec/execbrief.html",
@@ -253,8 +253,8 @@
       "edition": "pubsec",
       "key": "execbrief",
       "name": "Executive brief",
-      "bytes": 111556,
-      "sha256": "0e0acbe72b01f0c1ca6e4b4ba4a0166a2d855a182045ef698e6284880041fbfd"
+      "bytes": 115950,
+      "sha256": "147c313335244aaa6a0826bc0e47b56905c6a14e8ddb762d47623511853f39fb"
     },
     {
       "path": "reports/pubsec/foundationsprint.html",
@@ -262,8 +262,8 @@
       "edition": "pubsec",
       "key": "foundationsprint",
       "name": "Foundations receipt",
-      "bytes": 133518,
-      "sha256": "d32df677d95f2eb9add50bb432820c3a5d17f511823a40ad7d18d420634e55a1"
+      "bytes": 137912,
+      "sha256": "d5ce7510f2603a299b2a4021a50ba0c713444b621fb495f2513b4e382106353c"
     },
     {
       "path": "reports/pubsec/gssreceipt.html",
@@ -271,8 +271,8 @@
       "edition": "pubsec",
       "key": "gssreceipt",
       "name": "GSS exit receipt",
-      "bytes": 117192,
-      "sha256": "c384d38e0bf4b3562d0338414e024d359e2290117d9d616b75a5a213fff6631f"
+      "bytes": 121586,
+      "sha256": "3e8ec18a49dd489f681040e05530612307de56b8c540274080eaf108771db799"
     },
     {
       "path": "reports/pubsec/poamprint.html",
@@ -280,8 +280,8 @@
       "edition": "pubsec",
       "key": "poamprint",
       "name": "Plan of action & milestones",
-      "bytes": 107343,
-      "sha256": "76371fa18f38653401d63f70df5a44438a7276a498340ac36a627071a4558eb7"
+      "bytes": 111737,
+      "sha256": "4a816b82be6a1af6c38fa1b7d3a51917ab70fbd607eb9c6119a37eb80b07256f"
     },
     {
       "path": "reports/pubsec/readyprint.html",
@@ -289,8 +289,8 @@
       "edition": "pubsec",
       "key": "readyprint",
       "name": "Readiness report",
-      "bytes": 110643,
-      "sha256": "78e1b1909c0243143c3d048ac27d8868b2661e442fd6db11c5c0e22e0798257f"
+      "bytes": 115037,
+      "sha256": "898a469757b3800f39d5766f94100d6591a89939136f04a555749d810fab5f81"
     },
     {
       "path": "reports/pubsec/roadprint.html",
@@ -298,8 +298,8 @@
       "edition": "pubsec",
       "key": "roadprint",
       "name": "The road ahead",
-      "bytes": 386340,
-      "sha256": "a8637dc05ed644733be2518a05c4d5b0327474e9282d9c24a9bb11158cfbf78b"
+      "bytes": 390734,
+      "sha256": "c61f0eff4398a517de15a49ca05c3e2f436244a8d9605d8e972fb175f06418a6"
     },
     {
       "path": "reports/pubsec/sspprint.html",
@@ -307,8 +307,8 @@
       "edition": "pubsec",
       "key": "sspprint",
       "name": "System security plan — draft",
-      "bytes": 216294,
-      "sha256": "d99e5e19e867bd620828e40dfb6f92ffde32229a3c4e1b82caabc556fa6a23c3"
+      "bytes": 220688,
+      "sha256": "81e78dacd22f695f376a147e53b23dd8f1e6912366aec0a3549ba481deebbcac"
     },
     {
       "path": "reports/pubsec/storyboardprint.html",
@@ -316,8 +316,8 @@
       "edition": "pubsec",
       "key": "storyboardprint",
       "name": "Transformation storyboard",
-      "bytes": 135145,
-      "sha256": "663079c686c4121bf7979329fd9fa3729b97a799da00456274774933aa701d63"
+      "bytes": 139539,
+      "sha256": "2d0cc6d2f2d0d95e7f4e0f5883909504658c3383c8b09c09f97ba5c9a117dc2c"
     },
     {
       "path": "reports/pubsec/techanalysis.html",
@@ -325,8 +325,8 @@
       "edition": "pubsec",
       "key": "techanalysis",
       "name": "Technical analysis",
-      "bytes": 169152,
-      "sha256": "160fc56c3481e477903e90d1630297b343547fd8af5a523b604310515d3dad1c"
+      "bytes": 173546,
+      "sha256": "25d05b2bec265841e691703f9c30924fa10b76bb9a9a4075bebf16f26124cb35"
     },
     {
       "path": "reports/pubsec/transplan.html",
@@ -334,8 +334,8 @@
       "edition": "pubsec",
       "key": "transplan",
       "name": "Transformation plan",
-      "bytes": 165388,
-      "sha256": "100bcb097700ba00235014b7c9682ba16f21432f58e1d16ecd27cd3d501c56a2"
+      "bytes": 169782,
+      "sha256": "2fea7d62761bc8f9a531d4d06e954ba6c4993b9014d28b916f3a4976956da48b"
     },
     {
       "path": "site/about.html",
