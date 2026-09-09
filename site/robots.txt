@@ -1,0 +1,12 @@
+# cloud-waypoint.com — the public site. Nothing here takes evidence; every engagement shown is fictional.
+# The Claude web lane reads this surface for review (owner work order, 2026-09-09). Cloudflare prepends its
+# content-signals preamble to this file; the directives are these.
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: *
+Allow: /

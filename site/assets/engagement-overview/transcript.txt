@@ -1,0 +1,38 @@
+Cloud Waypoint — engagement overview
+AI-generated narration. Studio and report examples are fictional.
+
+From cloud decision to durable operation
+A cloud landing zone is a starting point. Your mission still needs a path it can execute and sustain. Cloud Waypoint helps you move from cloud decision to durable operation, with useful work your agency can own.
+
+Start where your mission needs help
+Start where you are: choosing a path, establishing the foundation, preparing a first workload, or improving operations. Together, we define the outcome, scope, decision owners, and handover for a bounded engagement.
+
+Standards guide the questions. Your evidence shapes the answer.
+We draw on the NIST Risk Management Framework, security controls, the DoD Cloud Computing Security Requirements Guide, and Zero Trust. Operating practices add reliability and cost discipline. These guide the questions; your evidence shapes the answer.
+
+The work starts with a real engagement record
+Here is the actual Studio, using a fictional engagement. Intake records the mission, scope, operating context, people, and handling rules. Evidence stays linked to its source, owner, and limitations, so the recommendation can be explained and challenged.
+
+Your participation makes the work useful
+Your team is an active partner. Respond to data calls, bring procedures and evidence through approved channels, and make owners available for interviews and workshops. Confirm facts and resolve disagreements. Missing information stays visible.
+
+What does the engagement give you?
+What do you take away? This complete example groups fifteen outputs into five connected packages, plus an implementation handoff. Depth follows the agreed scope, with evidence, open work, and next owners visible.
+
+A clear position—and a leadership decision
+The foundations receipt establishes the engagement basis. The assessment and technical analysis explain the current position and supporting evidence. The executive brief brings the material findings, choices, uncertainties, and recommended next decisions into a form leadership can use.
+
+A practical road ahead
+The transformation storyboard connects the story. The road ahead and transformation plan turn it into proposed work, dependencies, owners, and acceptance measures. Your team reviews the priorities and sequence, so the plan reflects a decision you can act on.
+
+The foundation for secure, usable operations
+For the agreed GSS scope, the concept of operations describes how the environment is intended to work. The draft system security plan and plan of action and milestones organize control responsibilities, evidence needs, and unresolved work for accountable review.
+
+Readiness with the conditions still visible
+The authorization readiness receipt, GSS exit receipt, and readiness report preserve the conditions and evidence behind the next gate. They support preparation and review. Authorization and risk acceptance remain with your responsible officials.
+
+A handover your chosen team can use
+The delivery note and closeout receipt inventory the handover. The implementation handoff carries boundaries, dependencies, responsibilities, and acceptance criteria to your chosen team. The continuation view keeps weekly changes, open actions, and client inputs visible.
+
+Your mission. Your decisions. Your operating capability.
+Success takes participation: timely evidence, candid interviews, review of the work, named owners, and knowledge transfer. The result is a defensible path, useful artifacts, and a next move your team understands. If you cannot run it after we leave, it does not ship.
