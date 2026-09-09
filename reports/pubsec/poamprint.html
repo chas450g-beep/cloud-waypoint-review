@@ -1177,6 +1177,7 @@ td .basis{margin:0}
   .gap{font-size:9.5pt;white-space:normal}table.instrument.il6{font-size:10.5pt}   /* the hybrid instruments (CO-R91) */
   .pic-bars .pic-seg{fill:#fff}.pic-legend .pic-key{font-size:9pt}.pic{break-inside:avoid}.pic .tmap-svg{min-width:0}   /* the consultative pictures keep their headings (V2-T29) */
   .doc-brand svg{height:9mm}
+  .rung{break-inside:avoid;font-size:10.5pt}.il6-ladder{break-inside:auto}
   :root.mbx .pagemark{display:none}   /* V2-T29: Chromium 131+ prints the mark from the @page margin box docHead emits, never over a full page's last line */
 }
 
@@ -1189,6 +1190,8 @@ table.instrument.il6 td{vertical-align:top;line-height:1.4}table.instrument.il6 
 .pic-bars .pic-label{font:600 17px var(--cw-font);fill:var(--cw-ink)}.pic-bars .pic-seg{font:600 15px var(--cw-font);fill:#fff}.pic-bars .pic-total{font:600 16px var(--cw-font);fill:var(--cw-slate)}
 .pic{margin:0}.pic>h2,.pic>h3{break-after:avoid}.pic-bars .pic-axis{font:600 11px var(--cw-font);fill:var(--cw-slate)}.pic-bars .pic-line{stroke:var(--cw-accent);stroke-width:2}.pic-heat .heat-cell{cursor:default}p.reading{max-width:72ch;line-height:1.55;margin:8px 0;font-size:14px}
 .doc-brand{display:flex;justify-content:flex-end;margin:4px 0 6px}.doc-brand svg{height:24px;width:auto;display:block}
+.il6-ladder{display:flex;flex-direction:column;gap:8px;margin:8px 0}.rung{display:grid;grid-template-columns:150px 1fr 24px 1fr 1.2fr;gap:8px;align-items:stretch;border:1px solid var(--cw-faint);border-left:4px solid var(--cw-navy);padding:8px 10px;font-size:12.5px;line-height:1.35}.rung-what{display:flex;gap:8px;align-items:flex-start}.rung-n{font-family:var(--cw-mono);font-size:10.5px;color:var(--cw-slate)}.rung-il small,.rung-follows small{display:block;font-family:var(--cw-mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--cw-slate);margin-bottom:2px}.rung-il.il6{border-left:2px solid var(--cw-accent-edge,var(--cw-gold));padding-left:8px}.rung-arrow{color:var(--cw-slate);align-self:center;text-align:center}.rung-follows{background:var(--cw-warm);padding:6px 8px}
+@media (max-width:760px){.rung{grid-template-columns:1fr 1fr;grid-template-rows:auto}.rung-arrow{display:none}.rung-what,.rung-follows{grid-column:1 / -1}}
 .pic-chain{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:8px 0}.pic-link{display:inline-flex;flex-direction:column;gap:2px;padding:8px 12px;border:1px solid var(--cw-faint);border-top:4px solid var(--cw-navy);background:var(--cw-surface);min-width:120px}.pic-link b{font-size:12px}.pic-link small{font-size:10.5px;color:var(--cw-slate)}.pic-arrow{color:var(--cw-slate);font-style:normal}
 .pic-ring .dtile{cursor:default}
 .pic-legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin:6px 0 2px}.pic-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--cw-mono);font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--cw-slate)}.pic-key i{width:12px;height:12px;display:inline-block}
@@ -1291,6 +1294,7 @@ main .crumb{display:none}
   .gap{font-size:9.5pt;white-space:normal}table.instrument.il6{font-size:10.5pt}   /* the hybrid instruments (CO-R91) */
   .pic-bars .pic-seg{fill:#fff}.pic-legend .pic-key{font-size:9pt}.pic{break-inside:avoid}.pic .tmap-svg{min-width:0}   /* the consultative pictures keep their headings (V2-T29) */
   .doc-brand svg{height:9mm}
+  .rung{break-inside:avoid;font-size:10.5pt}.il6-ladder{break-inside:auto}
   :root.mbx .pagemark{display:none}   /* V2-T29: Chromium 131+ prints the mark from the @page margin box docHead emits, never over a full page's last line */
 
 .noprint{display:none!important}
