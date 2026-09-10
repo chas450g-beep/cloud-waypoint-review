@@ -4,7 +4,7 @@ A **sanitized, read-only review mirror**. It exists so a reviewer can read the p
 the report set without access to the private repository. **No pull requests are accepted**; the
 canonical source is the private repository `chas450g-beep/cloud-waypoint`, and this mirror is
 regenerated from it on every deploy of the public site or the report explorer (source commit
-`3898c5f3`).
+`e0eefb7e`).
 
 - `site/` — the public site as served at https://cloud-waypoint.com/ : seven pages, the stylesheet,
   the marks, the robots file, the three-minute overview.
