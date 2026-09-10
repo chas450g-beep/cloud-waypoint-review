@@ -1306,6 +1306,8 @@ main .crumb{display:none}
   :root.mbx .pagemark{display:none}   /* V2-T29: Chromium 131+ prints the mark from the @page margin box docHead emits, never over a full page's last line */
 
 .noprint{display:none!important}
+/* the skip link is for keyboards, not paper: off-canvas until focused, and gone in print with the explorer's own chrome */
+.skip{position:absolute;left:-999px;width:1px;height:1px;overflow:hidden}.skip:focus{left:8px;top:8px;width:auto;height:auto;background:#fff;padding:6px 10px;z-index:3}@media print{.skip,.print-bar{display:none!important}}
 body{display:block;background:#fff;color:var(--cw-ink);margin:0;padding:0}main{display:block;max-width:960px;margin:0 auto;padding:28px 36px 64px}
 /* working views read as sheets: controls become text, buttons go */
 main textarea,main select,main input[type=text],main input[type=date],main input[type=number]{border:0;background:transparent;resize:none;pointer-events:none;font:inherit;color:inherit;padding:0;box-shadow:none;appearance:none;-webkit-appearance:none;height:auto;min-height:0}main textarea{overflow:hidden}main button,main .toolbar,main .actions,main [data-noprint]{display:none!important}
