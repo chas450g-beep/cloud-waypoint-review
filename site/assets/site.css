@@ -114,6 +114,22 @@ main{display:block}
 .hero .hero-art .compass text,.hero .hero-art .scale text{fill:var(--navy-muted)}
 .hero-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:56px;align-items:center}
 .hero-grid .title-block{max-width:none}
+.compose-art{display:block;width:100%;height:auto;justify-self:end;max-width:460px}
+.compose-art text{font-family:var(--brand-font)}
+.compose-art .eyebrow-text{font-family:var(--mono);font-size:11px;letter-spacing:.08em;font-weight:600}
+.compose-art .heading-text{font-size:16px;font-weight:700;fill:var(--ink)}
+.compose-art .body-text{font-size:12.5px;fill:var(--muted)}
+.compose-art .node-a rect{fill:var(--paper);stroke:var(--gold-edge);stroke-width:1.4}
+.compose-art .node-a .eyebrow-text{fill:var(--gold-ink)}
+.compose-art .node-b rect{fill:var(--paper);stroke:var(--blue);stroke-width:1.4}
+.compose-art .node-b .eyebrow-text{fill:var(--blue)}
+.compose-art .link{fill:none;stroke:var(--muted);stroke-width:1.3;stroke-dasharray:3 4}
+.compose-art .plus circle{fill:var(--paper);stroke:var(--muted);stroke-width:1.2}
+.compose-art .plus path{stroke:var(--muted);stroke-width:1.6;stroke-linecap:round}
+.compose-art .node-c rect{fill:var(--navy)}
+.compose-art .node-c .eyebrow-text{fill:var(--navy-gold)}
+.compose-art .node-c .heading-text{fill:#f5f7fb;font-size:17px}
+.compose-art .node-c .body-text{fill:var(--navy-muted)}
 .promise-line{font-size:17px;color:var(--muted);max-width:60ch}
 .promise-line strong{color:var(--ink);font-weight:600}
 .band3{background:var(--gold-fill);color:var(--ink);border-bottom:1px solid var(--gold-fill-edge)}
