@@ -279,7 +279,7 @@ video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#000}
 @media (max-width:1100px){
   :root{--gutter:32px}
   .hero .wrap,.hero-grid{grid-template-columns:1fr;gap:36px}
-  .hero-art{justify-self:start}
+  .hero-art,.compose-art{justify-self:start}
   .rail-row{grid-template-columns:160px minmax(0,1fr)}
   .rail-row .rail-mark{grid-column:2}
   .agenda-row{grid-template-columns:120px minmax(0,1fr) 70px}
