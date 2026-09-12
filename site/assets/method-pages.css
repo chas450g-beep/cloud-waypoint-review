@@ -82,3 +82,34 @@ html[data-page=home] .page-hero h1{margin-top:18px}
 /* Dark-plate figures: the approved graphics concepts are dark-ground, so the plate carries its own
    colour and must not sit inside the light figure card. Theme-independent by design. */
 .fig.plate{background:transparent;border:0;box-shadow:none;padding:0;border-radius:8px;overflow:hidden}
+
+/* Plate figures follow the reader's theme. The approved graphics concepts are dark-ground, so dark
+   mode is the faithful rendering; light mode inverts ground and ink while keeping the composition,
+   the gold accents and the blue/green state colours. One token set, two values. */
+:root{
+  --pl-bg:#f1f5f9; --pl-panel:#ffffff; --pl-panel-alt:#e8f0f5;
+  --pl-blue:#dfeaf5; --pl-blue-edge:#5d8cbb; --pl-blue-edge2:#46739f;
+  --pl-green:#ddece2; --pl-green-edge:#3f7f5f;
+  --pl-gold-fill:#f6efdf; --pl-gold:#7d5c12; --pl-gold-text:#5f4a13; --pl-gold-dim:#6b5316;
+  --pl-line:#d3dde6; --pl-conn:#7c97b0; --pl-muted:#496078; --pl-sec:#33506c; --pl-ink:#0e2742;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme=light]){
+    --pl-bg:#0d2540; --pl-panel:#14314f; --pl-panel-alt:#1a3f63;
+    --pl-blue:#1d4a78; --pl-blue-edge:#3f7ab0; --pl-blue-edge2:#4e86ba;
+    --pl-green:#245c46; --pl-green-edge:#4d9273;
+    --pl-gold-fill:#5c4a1f; --pl-gold:#d8b665; --pl-gold-text:#f0e2c0; --pl-gold-dim:#e2d3ad;
+    --pl-line:#2b4a6b; --pl-conn:#8aa6bf; --pl-muted:#9db2c6; --pl-sec:#cfdbe6; --pl-ink:#f5f7fb;
+  }
+}
+:root[data-theme=dark]{
+  --pl-bg:#0d2540; --pl-panel:#14314f; --pl-panel-alt:#1a3f63;
+  --pl-blue:#1d4a78; --pl-blue-edge:#3f7ab0; --pl-blue-edge2:#4e86ba;
+  --pl-green:#245c46; --pl-green-edge:#4d9273;
+  --pl-gold-fill:#5c4a1f; --pl-gold:#d8b665; --pl-gold-text:#f0e2c0; --pl-gold-dim:#e2d3ad;
+  --pl-line:#2b4a6b; --pl-conn:#8aa6bf; --pl-muted:#9db2c6; --pl-sec:#cfdbe6; --pl-ink:#f5f7fb;
+}
+/* In light mode the plate needs a hairline so it still reads as one object against the page. */
+.fig.plate{border:1px solid var(--pl-line)}
+@media (prefers-color-scheme: dark){:root:not([data-theme=light]) .fig.plate{border-color:transparent}}
+:root[data-theme=dark] .fig.plate{border-color:transparent}
