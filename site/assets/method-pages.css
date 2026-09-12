@@ -310,3 +310,7 @@ main>section.layer:nth-of-type(even){background:var(--surface)}
 .hold:has(#hold-m8:checked) .hold-bar.w3{left:75.000%}
 .hold:has(#hold-m8:checked) .hold-state.s8{display:block}
 .hold:has(#hold-m8:checked) .hold-state.s3{display:none}
+
+/* A statement whose right column carries more than one paragraph and its own actions (the Reference Studio on standards). */
+.statement-body p{margin:0 0 1rem;font-size:1.15rem;line-height:1.72}
+.statement-body .actions{margin-top:1.5rem}
