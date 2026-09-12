@@ -11,8 +11,11 @@
   <meta property="og:url" content="https://cloud-waypoint.com/editions.html">
   <meta property="og:title" content="Cloud Waypoint · Two editions">
   <meta property="og:description" content="One method. Two editions. What actually differs.">
-  <meta property="og:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.svg">
+  <meta property="og:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.png">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <title>Cloud Waypoint · Two editions</title>
   <link rel="stylesheet" href="./assets/site.css">
@@ -22,13 +25,17 @@
 <header class="site-header"><div class="wrap">
   <a class="brand" href="./index.html"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false" fill="none" stroke-linecap="round" stroke-linejoin="round"><path class="mk-c" d="M4 33c10-8 18-8 28-16 4-3 8-6 12-6" stroke="#0b1b30" stroke-width="3"></path><path class="mk-c mk-c2" d="M4 43c8-4 14-4 22-10 6-4 12-10 18-12" stroke="#0b1b30" stroke-width="3" opacity=".55"></path><path class="mk-r" d="M8 42c8-6 10-12 18-18 4-3 8-6 16-14" stroke="#826017" stroke-width="3.4" stroke-dasharray="5 4"></path><circle class="mk-p" cx="26" cy="24" r="5.6" fill="#826017" stroke="#0b1b30" stroke-width="2.8"></circle></svg><span>cloud<span class="gold">waypoint</span></span></a>
   <nav class="site-nav" aria-label="Primary">
-    <a href="./index.html">Home</a>
-    <a href="./six-weeks.html">Six weeks</a>
-    <a href="./leave-with.html">What you leave with</a>
-    <a href="./workshop.html">Workshop</a>
-    <a href="./operate.html">Operate</a>
-    <a href="./dependency-mapping.html">Dependency Mapping</a>
-    <a href="./editions.html" aria-current="page">Editions</a>
+    <input class="nav-toggle" type="checkbox" id="nav-toggle">
+    <label class="nav-menu" for="nav-toggle"><span class="nav-menu-open">Menu</span><span class="nav-menu-close">Close</span></label>
+    <div class="nav-links">
+      <a href="./six-weeks.html">Six weeks</a>
+      <a href="./dependency-mapping.html">Dependency Mapping</a>
+      <a href="./leave-with.html">What you leave with</a>
+      <a href="./operate.html">Operate</a>
+      <a href="./editions.html" aria-current="page">Editions</a>
+      <a href="./workshop.html">Workshop</a>
+      <a href="./about.html">About</a>
+    </div>
     <a class="btn btn-gold" href="./about.html#contact">Start a conversation</a>
   </nav>
 </div></header>
@@ -86,6 +93,7 @@
           <tr><td class="k">Handling</td><td>Enclave and offline. Non-CUI by default; CUI on approved devices, never above.</td><td>Non-CUI by default. Lighter handling; the same custody rules.</td></tr>
           <tr><td class="k">Where the record lives</td><td>One self-contained file on the engagement's own machine. Nothing fetched, no telemetry.</td><td>Local-first, the same single record, saved as a file the consultant exports.</td></tr>
           <tr><td class="k">At closeout</td><td>A client pack beside the practice's full pack; the engagement erased from the machine, with a printed receipt.</td><td>The same fifteen deliverables, the same handoff files, the same sealed record.</td></tr>
+          <tr><td class="k">Zero Trust target</td><td>The DoD Zero Trust Strategy at Target Level, read through the DoD Zero Trust Overlays.</td><td>OMB M-22-09 and the CISA Zero Trust Maturity Model.</td></tr>
           <tr><td class="k">Studio</td><td>The CairnOps workbench: one file, every lens.</td><td>The Cloud Waypoint Studio.</td></tr>
           <tr>
             <td class="k">Palette</td>
@@ -132,14 +140,17 @@
   </div>
   <nav class="footer-nav" aria-label="Footer">
     <a href="./six-weeks.html">Six weeks</a>
-    <a href="./leave-with.html">What you leave with</a>
-    <a href="./workshop.html">Workshop</a>
-    <a href="./operate.html">Operate</a>
     <a href="./dependency-mapping.html">Dependency Mapping</a>
+    <a href="./leave-with.html">What you leave with</a>
+    <a href="./operate.html">Operate</a>
     <a href="./editions.html">Editions</a>
+    <a href="./workshop.html">Workshop</a>
+    <a href="./about.html">About</a>
     <a href="./about.html#overview">Watch the three-minute overview</a>
     <a href="./about.html#contact">Start a conversation</a>
-    <a href="https://natsec.cloud-waypoint.com/">Consultant sign-in</a>
+    <a href="./handling.html">Handling</a>
+    <a href="./accessibility.html">Accessibility</a>
+    <a class="footer-quiet" href="https://natsec.cloud-waypoint.com/">Practitioner sign-in</a>
   </nav>
 </div></footer>
 </body>

@@ -11,8 +11,11 @@
   <meta property="og:url" content="https://cloud-waypoint.com/leave-with.html">
   <meta property="og:title" content="Cloud Waypoint · What you leave with">
   <meta property="og:description" content="Fifteen deliverables in one record you keep, plus the handoff to the team that implements.">
-  <meta property="og:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.svg">
+  <meta property="og:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.png">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <title>Cloud Waypoint · What you leave with</title>
   <link rel="stylesheet" href="./assets/site.css">
@@ -22,13 +25,17 @@
 <header class="site-header"><div class="wrap">
   <a class="brand" href="./index.html"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false" fill="none" stroke-linecap="round" stroke-linejoin="round"><path class="mk-c" d="M4 33c10-8 18-8 28-16 4-3 8-6 12-6" stroke="#0b1b30" stroke-width="3"></path><path class="mk-c mk-c2" d="M4 43c8-4 14-4 22-10 6-4 12-10 18-12" stroke="#0b1b30" stroke-width="3" opacity=".55"></path><path class="mk-r" d="M8 42c8-6 10-12 18-18 4-3 8-6 16-14" stroke="#826017" stroke-width="3.4" stroke-dasharray="5 4"></path><circle class="mk-p" cx="26" cy="24" r="5.6" fill="#826017" stroke="#0b1b30" stroke-width="2.8"></circle></svg><span>cloud<span class="gold">waypoint</span></span></a>
   <nav class="site-nav" aria-label="Primary">
-    <a href="./index.html">Home</a>
-    <a href="./six-weeks.html">Six weeks</a>
-    <a href="./leave-with.html" aria-current="page">What you leave with</a>
-    <a href="./workshop.html">Workshop</a>
-    <a href="./operate.html">Operate</a>
-    <a href="./dependency-mapping.html">Dependency Mapping</a>
-    <a href="./editions.html">Editions</a>
+    <input class="nav-toggle" type="checkbox" id="nav-toggle">
+    <label class="nav-menu" for="nav-toggle"><span class="nav-menu-open">Menu</span><span class="nav-menu-close">Close</span></label>
+    <div class="nav-links">
+      <a href="./six-weeks.html">Six weeks</a>
+      <a href="./dependency-mapping.html">Dependency Mapping</a>
+      <a href="./leave-with.html" aria-current="page">What you leave with</a>
+      <a href="./operate.html">Operate</a>
+      <a href="./editions.html">Editions</a>
+      <a href="./workshop.html">Workshop</a>
+      <a href="./about.html">About</a>
+    </div>
     <a class="btn btn-gold" href="./about.html#contact">Start a conversation</a>
   </nav>
 </div></header>
@@ -83,9 +90,9 @@
       <span class="eyebrow">For the program</span>
       <h2 class="col-head">What the program runs on</h2>
       <div class="doc"><b>Transformation storyboard</b><span>Workstreams on four horizons, sized and gated.</span></div>
-      <div class="doc"><b>Transformation plan</b><span>What moves, in what order, through which gates.</span></div>
+      <div class="doc doc-zt"><b>Transformation plan</b><span class="ztmark" aria-hidden="true">ZT</span><span>What moves, in what order, through which gates.</span></div>
       <div class="doc"><b>The road ahead</b><span>From the reading to the next level, step by step, with guardrails.</span></div>
-      <div class="doc"><b>Concept of operations</b><span>The eight-section spine and its annex instruments, the RACI among them.</span></div>
+      <div class="doc doc-zt"><b>Concept of operations</b><span class="ztmark" aria-hidden="true">ZT</span><span>The eight-section spine and its annex instruments, the RACI among them.</span></div>
       <div class="doc"><b>Readiness report</b><span>Where the controls stand, read from the evidence.</span></div>
     </div>
     <div class="stack">
@@ -93,10 +100,18 @@
       <h2 class="col-head">What an assessor can follow</h2>
       <div class="doc"><b>Assessment</b><span>Fifty-one positions, their evidence quality and confidence.</span></div>
       <div class="doc"><b>Technical analysis</b><span>The trace an assessor can follow.</span></div>
-      <div class="doc"><b>Authorization readiness receipt</b><span>Authority, boundary, categorization, inheritance, weaknesses.</span></div>
-      <div class="doc"><b>GSS exit receipt</b><span>The nine foundation decisions and their instruments.</span></div>
-      <div class="doc"><b>System security plan, draft</b><span>Statements assembled from the record; refused rather than invented.</span></div>
-      <div class="doc"><b>Plan of action and milestones</b><span>Findings with clocks, owners, and closure evidence.</span></div>
+      <div class="doc doc-zt"><b>Authorization readiness receipt</b><span class="ztmark" aria-hidden="true">ZT</span><span>Authority, boundary, categorization, inheritance, weaknesses.</span></div>
+      <div class="doc doc-zt"><b>GSS exit receipt</b><span class="ztmark" aria-hidden="true">ZT</span><span>The nine foundation decisions and their instruments.</span></div>
+      <div class="doc doc-zt"><b>System security plan, draft</b><span class="ztmark" aria-hidden="true">ZT</span><span>Statements assembled from the record; refused rather than invented.</span></div>
+      <div class="doc doc-zt"><b>Plan of action and milestones</b><span class="ztmark" aria-hidden="true">ZT</span><span>Findings with clocks, owners, and closure evidence.</span></div>
+    </div>
+  </div></section>
+
+  <section class="section-mid" id="zero-trust-preplan"><div class="wrap stack gap-18">
+    <div class="panel">
+      <span class="eyebrow">Where the Zero Trust pre-plan lives</span>
+      <p>Six of the fifteen carry it, marked <span class="ztmark">ZT</span> above. The transformation plan: what moves, in what order, read from the dependency map. The concept of operations: who runs the platform that enforces each segment on day two. The authorization readiness receipt: authority, boundary, categorization, inheritance. The GSS exit receipt: the foundation decisions, crossings among them. The system security plan draft: boundary statements assembled, not invented. The plan of action: every undeclared crossing as a finding with an owner and a clock.</p>
+      <p class="fine">Fifteen stays fifteen. None is added for the pre-plan.</p>
     </div>
   </div></section>
 
@@ -122,14 +137,17 @@
   </div>
   <nav class="footer-nav" aria-label="Footer">
     <a href="./six-weeks.html">Six weeks</a>
-    <a href="./leave-with.html">What you leave with</a>
-    <a href="./workshop.html">Workshop</a>
-    <a href="./operate.html">Operate</a>
     <a href="./dependency-mapping.html">Dependency Mapping</a>
+    <a href="./leave-with.html">What you leave with</a>
+    <a href="./operate.html">Operate</a>
     <a href="./editions.html">Editions</a>
+    <a href="./workshop.html">Workshop</a>
+    <a href="./about.html">About</a>
     <a href="./about.html#overview">Watch the three-minute overview</a>
     <a href="./about.html#contact">Start a conversation</a>
-    <a href="https://natsec.cloud-waypoint.com/">Consultant sign-in</a>
+    <a href="./handling.html">Handling</a>
+    <a href="./accessibility.html">Accessibility</a>
+    <a class="footer-quiet" href="https://natsec.cloud-waypoint.com/">Practitioner sign-in</a>
   </nav>
 </div></footer>
 </body>

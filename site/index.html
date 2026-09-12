@@ -11,8 +11,11 @@
   <meta property="og:url" content="https://cloud-waypoint.com/">
   <meta property="og:title" content="Cloud Waypoint · One method, two editions, six weeks">
   <meta property="og:description" content="Told to move to the cloud? Leave in six weeks with a plan your mission has signed and a team that can run it.">
-  <meta property="og:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.svg">
+  <meta property="og:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.png">
   <meta name="twitter:title" content="Cloud Waypoint · One method, two editions, six weeks">
   <meta name="twitter:description" content="Told to move to the cloud? Leave in six weeks with a plan your mission has signed and a team that can run it.">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
@@ -24,13 +27,17 @@
 <header class="site-header"><div class="wrap">
   <a class="brand" href="./index.html"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false" fill="none" stroke-linecap="round" stroke-linejoin="round"><path class="mk-c" d="M4 33c10-8 18-8 28-16 4-3 8-6 12-6" stroke="#0b1b30" stroke-width="3"></path><path class="mk-c mk-c2" d="M4 43c8-4 14-4 22-10 6-4 12-10 18-12" stroke="#0b1b30" stroke-width="3" opacity=".55"></path><path class="mk-r" d="M8 42c8-6 10-12 18-18 4-3 8-6 16-14" stroke="#826017" stroke-width="3.4" stroke-dasharray="5 4"></path><circle class="mk-p" cx="26" cy="24" r="5.6" fill="#826017" stroke="#0b1b30" stroke-width="2.8"></circle></svg><span>cloud<span class="gold">waypoint</span></span></a>
   <nav class="site-nav" aria-label="Primary">
-    <a href="./index.html" aria-current="page">Home</a>
-    <a href="./six-weeks.html">Six weeks</a>
-    <a href="./leave-with.html">What you leave with</a>
-    <a href="./workshop.html">Workshop</a>
-    <a href="./operate.html">Operate</a>
-    <a href="./dependency-mapping.html">Dependency Mapping</a>
-    <a href="./editions.html">Editions</a>
+    <input class="nav-toggle" type="checkbox" id="nav-toggle">
+    <label class="nav-menu" for="nav-toggle"><span class="nav-menu-open">Menu</span><span class="nav-menu-close">Close</span></label>
+    <div class="nav-links">
+      <a href="./six-weeks.html">Six weeks</a>
+      <a href="./dependency-mapping.html">Dependency Mapping</a>
+      <a href="./leave-with.html">What you leave with</a>
+      <a href="./operate.html">Operate</a>
+      <a href="./editions.html">Editions</a>
+      <a href="./workshop.html">Workshop</a>
+      <a href="./about.html">About</a>
+    </div>
     <a class="btn btn-gold" href="./about.html#contact">Start a conversation</a>
   </nav>
 </div></header>
@@ -38,12 +45,12 @@
 <main id="main">
   <section class="hero"><div class="wrap">
     <div class="hero-copy">
-      <span class="eyebrow">Cloud Waypoint · one method, two editions, six weeks</span>
-      <h1>Told to move to the cloud? Leave in six weeks with a plan your mission has signed and a team that can run it.</h1>
-      <p class="lead">The landing zone is a starting point, not a plan. Cloud Waypoint spends six weeks with your people, on your evidence, building the picture the provider cannot: what you have, what it depends on, the boundary you will be authorized in, who runs it on day two, and the order the work has to happen in.</p>
+      <span class="eyebrow">Told to move to the cloud?</span>
+      <h1>The landing zone is coming. Arrive with the authorization already in motion.</h1>
+      <p class="lead">Six weeks with your people, on your evidence: the boundary you will be authorized in, drawn and categorized; what your applications actually talk to, observed rather than reported; and the segments inside that boundary, rehearsed down to the application. You leave with a plan your mission has signed and a team that can run it, while the award runs its own clock. Strategy, not tooling.</p>
       <div class="actions">
-        <a class="btn btn-gold" href="./workshop.html">Start with three hours</a>
-        <a class="btn btn-ghost" href="./leave-with.html">See what you leave with</a>
+        <a class="btn btn-gold" href="./about.html#contact">Start a conversation</a>
+        <a class="btn btn-ghost" href="./workshop.html">Start with the workshop</a>
       </div>
     </div>
     <svg class="hero-art" viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Topographic map: the route from you are here through four waypoints to a plan you can run">
@@ -86,82 +93,179 @@
     <div class="cell"><span class="eyebrow">Authority</span><p>Named people decide. Your Authorizing Official keeps every authorization decision.</p></div>
   </div></section>
 
-  <section class="section" id="how"><div class="wrap stack gap-44">
-    <div class="section-head">
-      <span class="eyebrow">How Cloud Waypoint helps</span>
-      <h2>Someone told your mission to move. The provider gives you a landing zone. It does not give you your own picture.</h2>
-      <p class="lead">A data-center closure, an enterprise mandate, a JWCC task order. Whatever the reason, the questions are the same, and we answer them with your people in six weeks.</p>
-    </div>
-    <div class="cards3">
-      <article class="card">
-        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg>
-        <h3>Where you stand</h3>
-        <p>What you have and what depends on what, read from your evidence and confirmed with the people who run it today, so the plan starts from the estate you actually have.</p>
+  <section class="section" id="arc" aria-label="The three pillars, pre-planned in one record"><div class="wrap stack gap-28">
+    <div class="arcstrip">
+      <article class="arc">
+        <span class="arckey">01 · See what actually talks</span>
+        <h3>Observed beside declared, for every dependency.</h3>
+        <p>Twelve to sixteen weeks of watching who talks to whom, how often, across which boundary. A crossing found that is not on the register is a finding with an owner and a clock.</p>
+        <a class="arclink" href="./dependency-mapping.html">Dependency Mapping &rarr;</a>
       </article>
-      <article class="card">
-        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="4" width="16" height="16"></rect><path d="M9 12h6M12 9v6"></path></svg>
-        <h3>What you will be authorized in</h3>
-        <p>The boundary drawn, categorized, and inheritance mapped: what the provider or the enterprise covers, what stays yours, and the evidence each claim rests on.</p>
+      <article class="arc">
+        <span class="arckey">02 · Draw the boundary you will be authorized in</span>
+        <h3>The general support system, its crossings, what it inherits.</h3>
+        <p>Drawn on what is already known, categorized, inheritance mapped, before the letter arrives. Authorized once; everything inside it inherits.</p>
+        <a class="arclink" href="./six-weeks.html">Six weeks, Move 3 &rarr;</a>
       </article>
-      <article class="card">
-        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3"></circle><circle cx="17" cy="9" r="2.4"></circle><path d="M3 20c0-4 3-6 6-6s6 2 6 6M14 20c0-3 1.6-5 3.5-5S21 17 21 20"></path></svg>
-        <h3>Who runs it on day two</h3>
-        <p>The team, the handoffs, and the order the work has to happen in, named before the first workload moves, so the move does not leave an operating gap.</p>
+      <article class="arc">
+        <span class="arckey">03 · Segment it down to the application</span>
+        <h3>Rehearsed first. Enforced by your team.</h3>
+        <p>The map itself is the handoff: every endpoint labelled by role, application, environment and location; every validated flow a labelled allow. We prepare the jump-start. Your day-two team runs the platform and owns every exception.</p>
+        <a class="arclink" href="./operate.html">Operate &rarr;</a>
       </article>
     </div>
-    <p class="pull">We bring the sequence, the precedent, and the gates as they actually come. Your people do the building, because they are the ones still doing it in year four.</p>
+    <p class="fine">Three pillars of the Zero Trust target your mission answers to, pre-planned in one record. Evidence informs; named people decide. The Authorizing Official keeps every authorization decision.</p>
   </div></section>
 
-  <section class="section-mid" id="dependency-mapping"><div class="wrap stack gap-28">
+  <section class="section" id="why-now"><div class="wrap stack gap-28">
+    <div class="section-head">
+      <span class="eyebrow">Why now</span>
+      <h2>Someone told your mission to move. The provider gives you a landing zone. It does not give you your picture.</h2>
+      <p class="lead">A data-center closure, an enterprise mandate, a task order. The award has its own clock and can take months. Most of the work that decides whether your applications can use that landing zone does not depend on the letter arriving, and every week done in parallel is a week not spent serialising afterward. This is the shape of a two-environment engagement as it actually runs; one environment alone runs the same shape.</p>
+    </div>
+    <div class="figscroll">
+      <svg class="fig-timeline" viewBox="0 0 1000 300" role="img" aria-label="The engagement timeline: a two-week data call and platform review before the clock, then two environments two weeks apart, Foundations six weeks each with the signature waiting for the discovery baseline, dependency mapping twelve to sixteen weeks from install, week 20 closing both records">
+          <text x="60" y="16" font-size="11" font-weight="600" fill="#826017" letter-spacing="1.5">TWO WEEKS OF DATA CALL, THEN SIXTEEN TO EIGHTEEN · TWO ENVIRONMENTS, TWO WEEKS APART · WEEK 20 CLOSES BOTH RECORDS</text>
+          <g font-size="11" fill="#465369" text-anchor="middle">
+            <line x1="60" y1="262" x2="940" y2="262" stroke="#cfd5dc"></line>
+            <g stroke="#cfd5dc"><line x1="60" y1="258" x2="60" y2="266"></line><line x1="140" y1="258" x2="140" y2="266"></line><line x1="220" y1="258" x2="220" y2="266"></line><line x1="300" y1="258" x2="300" y2="266"></line><line x1="380" y1="258" x2="380" y2="266"></line><line x1="460" y1="258" x2="460" y2="266"></line><line x1="540" y1="258" x2="540" y2="266"></line><line x1="620" y1="258" x2="620" y2="266"></line><line x1="700" y1="258" x2="700" y2="266"></line><line x1="780" y1="258" x2="780" y2="266"></line><line x1="860" y1="258" x2="860" y2="266"></line><line x1="940" y1="258" x2="940" y2="266"></line></g>
+            <text x="60" y="282">wk −2</text><text x="140" y="282">0</text><text x="220" y="282">2</text><text x="300" y="282">4</text><text x="380" y="282">6</text><text x="460" y="282">8</text><text x="540" y="282">10</text><text x="620" y="282">12</text><text x="700" y="282">14</text><text x="780" y="282">16</text><text x="860" y="282">18</text><text x="940" y="282">20</text>
+          </g>
+          <line x1="140" y1="26" x2="140" y2="262" stroke="#cfd5dc" stroke-dasharray="3 3"></line>
+          <line x1="940" y1="26" x2="940" y2="262" stroke="#071a2c" stroke-width="1.5"></line>
+          <text x="934" y="246" font-size="10" font-weight="600" fill="#071a2c" text-anchor="end">CLOSEOUT · both records</text>
+          <g font-size="11" font-weight="600">
+            <rect x="60" y="34" width="80" height="16" fill="#c7a24b"></rect><text x="148" y="46" fill="#826017">DATA CALL · two weeks, before the clock</text>
+            <rect x="60" y="60" width="280" height="16" fill="none" stroke="#21425f" stroke-dasharray="4 3"></rect><text x="68" y="72" fill="#21425f">PLATFORM REVIEW · starts with the data call</text><text x="348" y="72" fill="#465369">approval by week 5 in the first environment, week 7 in the second; the clock starts at install</text>
+          </g>
+          <text x="60" y="100" font-size="10" font-weight="600" fill="#465369" letter-spacing="1.5">ENVIRONMENT 1 · FOR EXAMPLE IL5</text>
+          <g font-size="11" font-weight="600">
+            <rect x="260" y="108" width="240" height="16" fill="#071a2c"></rect><text x="268" y="120" fill="#fff">FOUNDATIONS · six weeks from week 3</text>
+            <rect x="500" y="108" width="80" height="16" fill="none" stroke="#071a2c" stroke-dasharray="4 3"></rect>
+            <rect x="340" y="134" width="480" height="16" fill="#1f6f6a"></rect><text x="348" y="146" fill="#fff">DEPENDENCY MAPPING · twelve weeks from install · sixteen for core applications</text>
+            <rect x="820" y="134" width="120" height="16" fill="none" stroke="#1f6f6a" stroke-dasharray="4 3"></rect><path d="M936 134 L950 142 L936 150 Z" fill="#1f6f6a"></path>
+          </g>
+          <text x="60" y="182" font-size="10" font-weight="600" fill="#465369" letter-spacing="1.5">ENVIRONMENT 2 · FOR EXAMPLE IL6 · TWO WEEKS BEHIND</text>
+          <g font-size="11" font-weight="600">
+            <rect x="340" y="190" width="240" height="16" fill="#071a2c"></rect><text x="348" y="202" fill="#fff">FOUNDATIONS · six weeks from week 5</text>
+            <rect x="580" y="190" width="80" height="16" fill="none" stroke="#071a2c" stroke-dasharray="4 3"></rect>
+            <rect x="420" y="216" width="480" height="16" fill="#1f6f6a"></rect><text x="428" y="228" fill="#fff">DEPENDENCY MAPPING · twelve weeks from install</text>
+            <rect x="900" y="216" width="40" height="16" fill="none" stroke="#1f6f6a" stroke-dasharray="4 3"></rect><path d="M936 216 L950 224 L936 232 Z" fill="#1f6f6a"></path>
+          </g>
+          <g stroke="#c7a24b" stroke-width="2"><line x1="580" y1="104" x2="580" y2="158"></line><line x1="660" y1="186" x2="660" y2="240"></line></g>
+          <g font-size="10" font-weight="700" fill="#826017" text-anchor="middle"><text x="580" y="168">SIGNATURE · waits for the discovery baseline, not the calendar</text><text x="660" y="250">SIGNATURE · week 13</text></g>
+        </svg>
+    </div>
+    <div class="parallel">
+      <div class="panel">
+        <span class="eyebrow">Waits on the letter</span>
+        <ul>
+          <li>The task order and the provider it names.</li>
+          <li>The landing zone the provider or the enterprise stands up, and its own authorization.</li>
+          <li>The first workload's actual move.</li>
+        </ul>
+      </div>
+      <div class="navy">
+        <span class="eyebrow">Starts the day you decide</span>
+        <ul>
+          <li><b>The picture:</b> what you have, what depends on what, who owns it.</li>
+          <li><b>The boundary you will be authorized in,</b> drawn and categorized, inheritance mapped.</li>
+          <li><b>What your applications actually do,</b> observed, and the order they can move in.</li>
+          <li><b>The segments they will need,</b> rehearsed under a named person's approval, and the team that runs them.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="pull">When the landing zone lands, it is hardened: macro-segmented at the boundary, segmented inside on validated purpose, down to the application. It is ready to receive workloads in the order the dependency map dictates, not a queue that starts cold.</p>
+  </div></section>
+
+  <section class="section-mid" id="six-weeks"><div class="wrap stack gap-28">
+    <div class="section-head">
+      <span class="eyebrow">Six weeks</span>
+      <h2>Six weeks. Four moves. One signature.</h2>
+      <p class="lead">Each move has the sessions it needs, the people who must be in the room, and a checkpoint at its end. Three of the four checkpoints are decision reviews with the sponsor in the room. Move 3 is where the Zero Trust pre-plan lands.</p>
+    </div>
+    <div class="moves">
+      <article class="move">
+        <span class="arckey">Move 1</span>
+        <h3>Entry and authority</h3>
+        <p>Who signs, what the mission is, what evidence exists.</p>
+      </article>
+      <article class="move">
+        <span class="arckey">Move 2</span>
+        <h3>Operating model and assessment</h3>
+        <p>Run it yourself or join a shared service; where the controls stand.</p>
+      </article>
+      <article class="move move-key">
+        <span class="arckey">Move 3 · The pre-plan</span>
+        <h3>Services, crossings, and the foundation design</h3>
+        <p>The boundary drawn, every crossing on the register, the segmentation target set at the level your regime asks for.</p>
+      </article>
+      <article class="move">
+        <span class="arckey">Move 4</span>
+        <h3>Rehearsal, signature, handover</h3>
+        <p>The plan names the week the baseline completes and schedules the first segment after it.</p>
+      </article>
+    </div>
+    <p class="fine"><a href="./six-weeks.html">The six weeks, move by move &rarr;</a></p>
+  </div></section>
+
+  <section class="section-end" id="dependency-mapping"><div class="wrap stack gap-28">
+    <div class="section-head">
+      <span class="eyebrow">Dependency Mapping · Zero Trust</span>
+      <h2>One boundary, authorized once. Every application inside it, faster.</h2>
+    </div>
     <div class="hero-grid compose-grid">
-      <div class="section-head">
-        <span class="eyebrow">While the acquisition runs its course</span>
-        <h2>A JWCC landing zone can take months to award. Your applications do not have to wait on it.</h2>
-        <p class="lead">Foundations already runs on discovery — artifacts, interviews, what your people can document. Dependency Mapping is the technical counterpart: not what people report, but what applications actually do, who talks to whom, and how often. Run in parallel with a CSP award, the two jump-start your GSS understanding, your migration patterns, and the application-level authorization work each workload will need — so none of it starts cold. A GSS is buildable from what's already known; what it inherits for any one application is not a standards question. It depends on what that application actually does.</p>
-      </div>
-      <svg class="compose-art" viewBox="0 0 460 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Foundations covers the landing zone; Dependency Mapping covers one application; together they compose that application's authorization case">
-        <g class="node node-a">
-          <rect x="8" y="16" width="204" height="140" rx="2"></rect>
-          <text class="eyebrow-text" x="26" y="44">FOUNDATIONS</text>
-          <text class="heading-text" x="26" y="70">The landing zone</text>
-          <text class="body-text" x="26" y="94">GSS coverage: shared,</text>
-          <text class="body-text" x="26" y="112">inherited, the same for</text>
-          <text class="body-text" x="26" y="130">every application behind it.</text>
-        </g>
-        <g class="node node-b">
-          <rect x="248" y="16" width="204" height="140" rx="2"></rect>
-          <text class="eyebrow-text" x="266" y="44">DEPENDENCY MAPPING</text>
-          <text class="heading-text" x="266" y="70">This application</text>
-          <text class="body-text" x="266" y="94">Its own boundary and</text>
-          <text class="body-text" x="266" y="112">dependencies, observed</text>
-          <text class="body-text" x="266" y="130">rather than assumed.</text>
-        </g>
-        <path class="link" d="M110 156 L110 190 Q110 200 128 205 L205 224"></path>
-        <path class="link" d="M350 156 L350 190 Q350 200 332 205 L255 224"></path>
-        <g class="plus" transform="translate(230 205)">
-          <circle r="14"></circle>
-          <path d="M-6 0h12M0 -6v12"></path>
-        </g>
-        <g class="node node-c">
-          <rect x="30" y="234" width="400" height="130" rx="2"></rect>
-          <text class="eyebrow-text" x="48" y="262">TOGETHER</text>
-          <text class="heading-text" x="48" y="288">One application's authorization case</text>
-          <text class="body-text" x="48" y="312">The landing zone's shared coverage, plus</text>
-          <text class="body-text" x="48" y="330">what only this application's own evidence</text>
-          <text class="body-text" x="48" y="348">can show.</text>
-        </g>
-      </svg>
+      <ul class="coalesce">
+        <li><b>The general support system</b> is the landing zone's authorized core. Drawn, categorized, its crossings registered, its common controls inherited by everything inside.</li>
+        <li><b>Dependency Mapping</b> reads what each application actually does, beside what its owners declared, for twelve to sixteen weeks, cited to a source.</li>
+        <li><b>Zero Trust</b> takes the map itself as its handoff: every endpoint labelled by role, application, environment and location; every validated flow a labelled allow; deny by default. We prepare the jump-start. Your team runs the platform.</li>
+      </ul>
+      <svg class="fig-blueprint-small" viewBox="0 0 360 220" role="img" aria-label="A boundary with a general support system and two application segments; observed flows in teal, an undeclared crossing in copper">
+          <rect x="30" y="16" width="318" height="192" fill="none" stroke="#d8b665" stroke-width="1.5"></rect>
+          <text x="36" y="30" font-size="8" fill="#d8b665" font-weight="600" letter-spacing="1">BOUNDARY · CROSSINGS REGISTERED</text>
+          <rect x="46" y="40" width="286" height="46" fill="#21425f" stroke="none"></rect>
+          <text x="54" y="56" font-size="8" fill="#ffffff" font-weight="600" letter-spacing="1">GENERAL SUPPORT SYSTEM · AUTHORIZED ONCE</text>
+          <g fill="#071a2c" stroke="#b9c5d0" stroke-width=".8"><rect x="54" y="62" width="48" height="16"></rect><rect x="108" y="62" width="48" height="16"></rect><rect x="162" y="62" width="48" height="16"></rect><rect x="216" y="62" width="48" height="16"></rect><rect x="270" y="62" width="54" height="16"></rect></g>
+          <g font-size="7" fill="#b9c5d0" text-anchor="middle"><text x="78" y="73">directory</text><text x="132" y="73">logging</text><text x="186" y="73">keys</text><text x="240" y="73">endpoints</text><text x="297" y="73">privileged id</text></g>
+          <g fill="none" stroke="#ffffff" stroke-width="1.5"><rect x="46" y="104" width="136" height="92"></rect><rect x="196" y="104" width="136" height="92"></rect></g>
+          <g font-size="7" fill="#ffffff" font-weight="600" letter-spacing="1"><text x="52" y="116">SEGMENT · APPLICATION A</text><text x="202" y="116">SEGMENT · APPLICATION B</text></g>
+          <g fill="#071a2c" stroke="#ffffff" stroke-width="1"><rect x="60" y="128" width="50" height="20"></rect><rect x="118" y="164" width="54" height="20"></rect><rect x="210" y="128" width="50" height="20"></rect></g>
+          <rect x="268" y="164" width="54" height="20" fill="#071a2c" stroke="#e09a5c" stroke-width="1" stroke-dasharray="3 2"></rect>
+          <g font-size="7" fill="#ffffff" text-anchor="middle"><text x="85" y="141">App A</text><text x="145" y="177">Database A</text><text x="235" y="141">App B</text><text x="295" y="177" fill="#e09a5c">Database B</text></g>
+          <g stroke="#5fb3ab" stroke-width="1.5"><line x1="78" y1="128" x2="78" y2="78"></line><line x1="100" y1="128" x2="132" y2="78"></line></g>
+          <line x1="235" y1="148" x2="172" y2="170" stroke="#8a95a6" stroke-width="1" stroke-dasharray="2 2"></line>
+          <line x1="245" y1="148" x2="290" y2="164" stroke="#e09a5c" stroke-width="1.5" stroke-dasharray="4 2"></line>
+          <circle cx="268" cy="156" r="5" fill="#071a2c" stroke="#e09a5c" stroke-width="1"></circle><text x="268" y="158.5" font-size="7" fill="#e09a5c" text-anchor="middle" font-weight="700">×</text>
+          <g><circle cx="30" cy="60" r="6" fill="#071a2c" stroke="#d8b665" stroke-width="1.5"></circle><circle cx="30" cy="150" r="6" fill="#071a2c" stroke="#d8b665" stroke-width="1.5"></circle><circle cx="348" cy="150" r="6" fill="#071a2c" stroke="#e09a5c" stroke-width="1.5" stroke-dasharray="2 1.5"></circle></g>
+          <g font-size="6" fill="#d8b665" text-anchor="middle" font-weight="700"><text x="30" y="62">C1</text><text x="30" y="152">C3</text><text x="348" y="152" fill="#e09a5c">C5</text></g>
+          <circle cx="189" cy="150" r="9" fill="#071a2c" stroke="#d8b665" stroke-width="1.5"></circle><text x="189" y="148" font-size="5" fill="#d8b665" text-anchor="middle" font-weight="700">HUMAN</text><text x="189" y="154" font-size="5" fill="#d8b665" text-anchor="middle" font-weight="700">GATE</text>
+        </svg>
     </div>
-    <div class="example">
-      <div class="stack">
-        <span class="eyebrow">An illustrative example</span>
-        <h3>One landing zone. Two different applications.</h3>
-        <p class="fine">Public patterns only. No client environment, no real application, no stated figure.</p>
-      </div>
-      <p>Two applications sit behind the same GSS. One is stand-alone: no inbound traffic, a handful of outbound calls to services the landing zone already covers. The other reaches across a boundary nobody had drawn on paper, talks to a database the service catalog never listed, and depends on a host nearing end of support. The GSS inherits the same baseline for both. What each application still owns — its boundary, its dependencies, its own evidence — is different, and only observed communication flows show which is which before the wave plan is built, not after.</p>
+    <p>Together they make a landing zone that can accelerate each application's authorization. Not by attesting. By answering, from cited evidence, the questions an assessor would otherwise ask each application to answer alone. A fictional example; no product is named.</p>
+    <p class="fine"><a href="./dependency-mapping.html">How the three coalesce, with the controls each row answers &rarr;</a></p>
+  </div></section>
+
+  <section class="section-mid" id="deliverables"><div class="wrap stack gap-28">
+    <div class="section-head">
+      <span class="eyebrow">What you leave with</span>
+      <h2>Fifteen deliverables. One record you keep.</h2>
+      <p class="lead">Printed at the depth each reader needs, from one record, with what each print still lacks stated rather than blanked. Four for leadership, five for the program, six for the assessor. Six of the fifteen carry the Zero Trust pre-plan; none is added for it.</p>
     </div>
-    <p class="pull">Dependency Mapping — recommended alongside Foundations, not a requirement of it — turns that difference from a guess into evidence: which controls an application actually inherits, what it still has to demonstrate on its own, and the boundary that starts its own authorization case, not just its place in the migration sequence.</p>
-    <p class="fine">Evidence informs; named individuals with authority decide. The applicable Authorizing Official retains every authorization decision. <a href="./dependency-mapping.html">See how the two join, step by step</a> · <a href="./about.html#contact">Ask about Dependency Mapping as your next step</a></p>
+    <div class="preview3">
+      <div class="stack"><h3 class="col-head">For the sponsor</h3><ul><li>Executive brief</li><li>Foundations receipt</li><li>Delivery note</li><li>Closeout receipt</li></ul></div>
+      <div class="stack"><h3 class="col-head">For the program</h3><ul><li>Transformation storyboard</li><li>Transformation plan</li><li>The road ahead</li><li>Concept of operations</li><li>Readiness report</li></ul></div>
+      <div class="stack"><h3 class="col-head">For the engineer and the assessor</h3><ul><li>Assessment</li><li>Technical analysis</li><li>Authorization readiness receipt</li><li>GSS exit receipt</li><li>System security plan (draft)</li><li>Plan of action and milestones</li></ul></div>
+    </div>
+    <p class="fine splitline"><a href="./leave-with.html">Every deliverable, by reader &rarr;</a><span class="quiet">Not an authorization. Not an implementation. Not a migration.</span></p>
+  </div></section>
+
+  <section class="section" id="day-two"><div class="wrap stack gap-28">
+    <div class="section-head">
+      <span class="eyebrow">Day two</span>
+      <h2>Day two has names before anything moves.</h2>
+      <p class="lead">Run it yourself or join a shared service; either way the mission needs a mission-side team. The labelled policy the record prepared is enforced here, on the platform that team runs, under its change process: each one approved before it is enforced, each exception with an expiry, each drift between declared and observed a documentation event before it is a change.</p>
+    </div>
+    <p class="fine"><a href="./operate.html">Two operating models, one skill set, the responsibilities &rarr;</a></p>
   </div></section>
 
   <section class="section-end" id="editions"><div class="wrap stack gap-28">
@@ -211,6 +315,7 @@
       </div>
       <div class="actions"><a class="btn btn-gold" href="./workshop.html">See the three-hour agenda</a></div>
     </div>
+    <p class="fine">Cloud Waypoint is led by a single practitioner. Fixed-fee advisory through World Wide Technology; a scoping conversation first. Nothing on this site takes a card, credentials, CUI, or client material. <a href="./about.html">About the practice</a></p>
   </div></section>
 </main>
 
@@ -222,14 +327,17 @@
   </div>
   <nav class="footer-nav" aria-label="Footer">
     <a href="./six-weeks.html">Six weeks</a>
-    <a href="./leave-with.html">What you leave with</a>
-    <a href="./workshop.html">Workshop</a>
-    <a href="./operate.html">Operate</a>
     <a href="./dependency-mapping.html">Dependency Mapping</a>
+    <a href="./leave-with.html">What you leave with</a>
+    <a href="./operate.html">Operate</a>
     <a href="./editions.html">Editions</a>
+    <a href="./workshop.html">Workshop</a>
+    <a href="./about.html">About</a>
     <a href="./about.html#overview">Watch the three-minute overview</a>
     <a href="./about.html#contact">Start a conversation</a>
-    <a href="https://natsec.cloud-waypoint.com/">Consultant sign-in</a>
+    <a href="./handling.html">Handling</a>
+    <a href="./accessibility.html">Accessibility</a>
+    <a class="footer-quiet" href="https://natsec.cloud-waypoint.com/">Practitioner sign-in</a>
   </nav>
 </div></footer>
 </body>

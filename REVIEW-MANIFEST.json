@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "e97b5256fd6aa4ba5ac6d205ce7aac5bcfbd96d9",
-  "sourceCommitDate": "2026-09-11T11:01:19-06:00",
+  "sourceCommit": "89d2f5959246c07c01660362d0cddfa440afe6da",
+  "sourceCommitDate": "2026-09-11T18:55:20-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -23,7 +23,18 @@
     }
   },
   "dataBoundary": "public site source and fictional specimen reports only; no client, credential, tenant, CUI, DoD/IC, interview, transcript, mission, seller, studio or readiness data",
-  "publicReferences": [],
+  "publicReferences": [
+    {
+      "path": "site/index.html",
+      "name": "World Wide Technology",
+      "note": "the firm the engagement is bought through, named on the live public page; already public, and no report print carries it"
+    },
+    {
+      "path": "site/about.html",
+      "name": "World Wide Technology",
+      "note": "the firm the engagement is bought through, named on the live public page; already public, and no report print carries it"
+    }
+  ],
   "excluded": [
     "studio., readiness. and seller. hosts: source, config and references (the live pages' one public sign-in link is listed above, not stripped)",
     "wrangler and deploy configuration, headers, secrets, environment files",
@@ -304,8 +315,8 @@
     {
       "path": "site/about.html",
       "role": "site-page",
-      "bytes": 26703,
-      "sha256": "7909703fae37960eaefb210cfc8de7836b70eb3414d25bba9902d6cc9c2696f8"
+      "bytes": 28537,
+      "sha256": "2f864d241eb3c0bdadd20b0e454991edd649b8000a6a9dcf3a57e76d39f72869"
     },
     {
       "path": "site/assets/cloud-waypoint-social.svg",
@@ -352,50 +363,50 @@
     {
       "path": "site/assets/site.css",
       "role": "site-asset",
-      "bytes": 27622,
-      "sha256": "ec458c2fc7ffd555129a939d8daf43c65e1a6ccaa88e844a9194081adc456fdf"
+      "bytes": 36387,
+      "sha256": "9aae172e9adac1a4782c8665d4951e2b1ae67b214b374845bdbebd3b8d2e9851"
     },
     {
       "path": "site/editions.html",
       "role": "site-page",
-      "bytes": 27534,
-      "sha256": "196ab5f8da2b0b4150d3e93a3ff7a7438bf5a6b727821c04634fb0b9c3cb5ad6"
+      "bytes": 28352,
+      "sha256": "7ddd6a4b3969e6878ce5b99b6b6b53724f4a9e828fce1f408fcc2142de8f6f26"
     },
     {
       "path": "site/index.html",
       "role": "site-page",
-      "bytes": 35225,
-      "sha256": "b78bddf82be06fc5a49e3008632e2efaba8c493cfae0b14d9feafd7d1fddf8c2"
+      "bytes": 46698,
+      "sha256": "a1de09a47295864a4c9282b94da2b2ae311208aa6ac9f45c3175cf8b01a28cbc"
     },
     {
       "path": "site/leave-with.html",
       "role": "site-page",
-      "bytes": 26639,
-      "sha256": "bfd02f9990eae14700f0131bd7fcf2c48172988d62207c87aeefed6346bf1af5"
+      "bytes": 28453,
+      "sha256": "6c5a11ae7a6713fc485d980d0bab0f0394bc1884819d5354c2ce67ba1c133bc1"
     },
     {
       "path": "site/operate.html",
       "role": "site-page",
-      "bytes": 29701,
-      "sha256": "2f8642b9b17e5bb42f5560b3ba9814758b05364222a8489b25ae77883fd31600"
+      "bytes": 30989,
+      "sha256": "2482cf847f29b19de04545c163863ed6323fccae0e39f31cc7666b575181a35c"
     },
     {
       "path": "site/robots.txt",
       "role": "site-robots",
-      "bytes": 373,
-      "sha256": "95aafcc1f22f149e5f9dc95e75d8f08b1b3c7b0ae3a906fc48f0fbc4990b3459"
+      "bytes": 422,
+      "sha256": "6d769357459fd0f8abe9d8ba76db1289f8fc41c6e8176081b1d561b3323b3613"
     },
     {
       "path": "site/six-weeks.html",
       "role": "site-page",
-      "bytes": 28233,
-      "sha256": "5a9ca86c59eb8efc6b1749abf2be4d48a47d5f1c7dfaeb92ecb564c60eda295c"
+      "bytes": 29422,
+      "sha256": "c524fe6cb353ced52b199a082f5e7a15da864f647181d4d7c78d4e2001780ecb"
     },
     {
       "path": "site/workshop.html",
       "role": "site-page",
-      "bytes": 27235,
-      "sha256": "99dd06d35f2ca085d8c12175434ebfdf9cf41aa6f86397069d2a85c6719b056a"
+      "bytes": 27897,
+      "sha256": "6138e31e38faca8195395e083e12b6a70866b79bc3a95522a0253c7ffa0109f8"
     }
   ]
 }

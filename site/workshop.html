@@ -11,8 +11,11 @@
   <meta property="og:url" content="https://cloud-waypoint.com/workshop.html">
   <meta property="og:title" content="Cloud Waypoint · Three-hour Cloud Foundation Workshop">
   <meta property="og:description" content="Not sure where to start? Three hours. One useful conversation. Leave with a starting-point brief.">
-  <meta property="og:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.svg">
+  <meta property="og:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://cloud-waypoint.com/assets/cloud-waypoint-social.png">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <title>Cloud Waypoint · Three-hour Cloud Foundation Workshop</title>
   <link rel="stylesheet" href="./assets/site.css">
@@ -22,13 +25,17 @@
 <header class="site-header"><div class="wrap">
   <a class="brand" href="./index.html"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false" fill="none" stroke-linecap="round" stroke-linejoin="round"><path class="mk-c" d="M4 33c10-8 18-8 28-16 4-3 8-6 12-6" stroke="#0b1b30" stroke-width="3"></path><path class="mk-c mk-c2" d="M4 43c8-4 14-4 22-10 6-4 12-10 18-12" stroke="#0b1b30" stroke-width="3" opacity=".55"></path><path class="mk-r" d="M8 42c8-6 10-12 18-18 4-3 8-6 16-14" stroke="#826017" stroke-width="3.4" stroke-dasharray="5 4"></path><circle class="mk-p" cx="26" cy="24" r="5.6" fill="#826017" stroke="#0b1b30" stroke-width="2.8"></circle></svg><span>cloud<span class="gold">waypoint</span></span></a>
   <nav class="site-nav" aria-label="Primary">
-    <a href="./index.html">Home</a>
-    <a href="./six-weeks.html">Six weeks</a>
-    <a href="./leave-with.html">What you leave with</a>
-    <a href="./workshop.html" aria-current="page">Workshop</a>
-    <a href="./operate.html">Operate</a>
-    <a href="./dependency-mapping.html">Dependency Mapping</a>
-    <a href="./editions.html">Editions</a>
+    <input class="nav-toggle" type="checkbox" id="nav-toggle">
+    <label class="nav-menu" for="nav-toggle"><span class="nav-menu-open">Menu</span><span class="nav-menu-close">Close</span></label>
+    <div class="nav-links">
+      <a href="./six-weeks.html">Six weeks</a>
+      <a href="./dependency-mapping.html">Dependency Mapping</a>
+      <a href="./leave-with.html">What you leave with</a>
+      <a href="./operate.html">Operate</a>
+      <a href="./editions.html">Editions</a>
+      <a href="./workshop.html" aria-current="page">Workshop</a>
+      <a href="./about.html">About</a>
+    </div>
     <a class="btn btn-gold" href="./about.html#contact">Start a conversation</a>
   </nav>
 </div></header>
@@ -82,7 +89,7 @@
       <div class="agenda-row"><span class="t">0:00–0:20</span><b>Start with the mission</b><p>What are you trying to improve? What is creating urgency? What feels unclear?</p><span class="mins">20 min</span></div>
       <div class="agenda-row"><span class="t">0:20–0:50</span><b>Walk through Cloud Waypoint</b><p>The four stages of the journey. What the cloud provider delivers, and what your organization still has to establish and operate.</p><span class="mins">30 min</span></div>
       <div class="agenda-row"><span class="t">0:50–1:00</span><b>Take a short break</b><p>Pause, compare notes, and surface the questions that need more attention.</p><span class="mins">10 min</span></div>
-      <div class="agenda-row"><span class="t">1:00–1:50</span><b>Find your starting point</b><p>Map it: application dependencies, the proposed boundary, evidence on hand, people, and current responsibilities. Identify the questions a scoped engagement would investigate.</p><span class="mins">50 min</span></div>
+      <div class="agenda-row"><span class="t">1:00–1:50</span><b>Find your starting point</b><p>Map it: application dependencies, the proposed boundary, the segments the mission's Zero Trust target asks for, evidence on hand, people, and current responsibilities. Identify the questions a scoped engagement would investigate.</p><span class="mins">50 min</span></div>
       <div class="agenda-row"><span class="t">1:50–2:30</span><b>Explore a first useful move</b><p>Use a candidate workload to discuss preparation needs. Walk through a future network specialist role and a shared-service handoff with the <a href="./operate.html#raci">sample RACI</a>, including what the existing team retains and what training it needs.</p><span class="mins">40 min</span></div>
       <div class="agenda-row"><span class="t">2:30–3:00</span><b>Agree on the next step</b><p>Capture priorities, open questions, likely owners, and the next decision. Decide whether a focused six-week engagement would help.</p><span class="mins">30 min</span></div>
     </div>
@@ -125,14 +132,17 @@
   </div>
   <nav class="footer-nav" aria-label="Footer">
     <a href="./six-weeks.html">Six weeks</a>
-    <a href="./leave-with.html">What you leave with</a>
-    <a href="./workshop.html">Workshop</a>
-    <a href="./operate.html">Operate</a>
     <a href="./dependency-mapping.html">Dependency Mapping</a>
+    <a href="./leave-with.html">What you leave with</a>
+    <a href="./operate.html">Operate</a>
     <a href="./editions.html">Editions</a>
+    <a href="./workshop.html">Workshop</a>
+    <a href="./about.html">About</a>
     <a href="./about.html#overview">Watch the three-minute overview</a>
     <a href="./about.html#contact">Start a conversation</a>
-    <a href="https://natsec.cloud-waypoint.com/">Consultant sign-in</a>
+    <a href="./handling.html">Handling</a>
+    <a href="./accessibility.html">Accessibility</a>
+    <a class="footer-quiet" href="https://natsec.cloud-waypoint.com/">Practitioner sign-in</a>
   </nav>
 </div></footer>
 </body>

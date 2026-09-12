@@ -10,3 +10,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://cloud-waypoint.com/sitemap.xml
