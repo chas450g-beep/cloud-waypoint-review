@@ -398,3 +398,4 @@ video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#000}
 .ztmark{display:inline-block;margin-left:8px;padding:1px 5px;border:1px solid var(--gold);font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;font-weight:700;color:var(--gold-ink);vertical-align:middle}
 .twoclocks{border-left:3px solid var(--gold);padding:2px 0 2px 18px;display:flex;flex-direction:column;gap:8px;max-width:78ch}
 .twoclocks p{margin:0}
+.band3 .bandnote{grid-column:1/-1;margin:0;padding:14px var(--gutter) 18px;border-top:1px solid var(--gold-fill-edge);font-size:14px;font-weight:400;line-height:1.6;color:var(--muted)}
