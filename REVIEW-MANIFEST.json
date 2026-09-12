@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "8c247f1111f4d423c01b2ae9ed6a7a7eddfc01a5",
-  "sourceCommitDate": "2026-09-12T12:43:36-06:00",
+  "sourceCommit": "762354461e1b5bbdb031c37f32c590fb76261106",
+  "sourceCommitDate": "2026-09-12T12:58:23-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -387,8 +387,8 @@
     {
       "path": "site/assets/method-pages.css",
       "role": "site-asset",
-      "bytes": 24554,
-      "sha256": "4e9d8a22432279b98c6a1d2d494432806140146334975dccdcbc20f73b3240b4"
+      "bytes": 26878,
+      "sha256": "ee4ea79bc45b1b890f87edd71b43c22ee6062e3ab11a83829ba72c5037c396aa"
     },
     {
       "path": "site/assets/mountain-mark.svg",

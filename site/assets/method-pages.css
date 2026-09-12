@@ -113,3 +113,31 @@ html[data-page=home] .page-hero h1{margin-top:18px}
 .fig.plate{border:1px solid var(--pl-line)}
 @media (prefers-color-scheme: dark){:root:not([data-theme=light]) .fig.plate{border-color:transparent}}
 :root[data-theme=dark] .fig.plate{border-color:transparent}
+
+/* ---- Hero treatment: the front door wears the dark band, every other page wears cream ---- */
+
+/* Cream for the interior pages in light mode; dark mode keeps the existing ground. */
+:root{--hero-a:#faf6ec;--hero-b:#f1e9da}
+@media (prefers-color-scheme: dark){:root:not([data-theme=light]){--hero-a:var(--paper);--hero-b:var(--surface2)}}
+:root[data-theme=dark]{--hero-a:var(--paper);--hero-b:var(--surface2)}
+.page-hero{background:radial-gradient(circle at 80% 24%,var(--diagram-fill),transparent 34%),linear-gradient(150deg,var(--hero-a),var(--hero-b))}
+
+/* Home: one dark band in both themes, carrying the dark plate inside it. This is the single
+   deliberate exception to following the reader's theme — a hero band is a designed surface, and the
+   figure it holds is dark-ground by design, so the two belong to each other rather than to the page. */
+html[data-page=home] .page-hero{background:radial-gradient(circle at 78% 22%,#17395c,transparent 46%),linear-gradient(150deg,#0b2136,#0d2540 60%,#0a1e33)}
+html[data-page=home] .page-hero .kicker{color:#d8b665}
+html[data-page=home] .page-hero .kicker:before{background:#d8b665}
+html[data-page=home] .page-hero h1{color:#fff;max-width:none}
+html[data-page=home] .page-hero .hero-copy>p{color:#cfdbe6}
+html[data-page=home] .page-hero .button.quiet{color:#f5f7fb;border-color:#3d5f80}
+html[data-page=home] .page-hero .fig.plate{--pl-bg:#0d2540;--pl-panel:#14314f;--pl-panel-alt:#1a3f63;--pl-blue:#1d4a78;--pl-blue-edge:#3f7ab0;--pl-blue-edge2:#4e86ba;--pl-green:#245c46;--pl-green-edge:#4d9273;--pl-gold-fill:#5c4a1f;--pl-gold:#d8b665;--pl-gold-text:#f0e2c0;--pl-gold-dim:#e2d3ad;--pl-line:#2b4a6b;--pl-conn:#8aa6bf;--pl-muted:#9db2c6;--pl-sec:#cfdbe6;--pl-ink:#f5f7fb;border-color:transparent}
+
+/* The figure's top edge sits on the cap height of the A in "Arrive", not on the section's centre:
+   start-aligned, then pushed down past the label line, the headline's top margin, and the gap
+   between the headline's em box and its cap. Every term scales with the headline, so the alignment
+   holds across the fluid range rather than at one width. */
+@media (min-width:900px){
+  html[data-page=home] .page-hero{align-items:start}
+  html[data-page=home] .page-hero .figwrap{margin-top:calc(1.2 * clamp(1.2rem,2.2vw,1.75rem) + 18px + 0.181 * clamp(4rem,7vw,6.7rem))}
+}
