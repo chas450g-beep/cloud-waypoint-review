@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "6ccf54e815283d76d0506d8134cd3ac05d9f712a",
-  "sourceCommitDate": "2026-09-12T11:57:33-06:00",
+  "sourceCommit": "8efbe9ed188247f4659a526f9d024dfec61e2ee3",
+  "sourceCommitDate": "2026-09-12T12:16:05-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -345,8 +345,8 @@
     {
       "path": "site/about.html",
       "role": "site-page",
-      "bytes": 12148,
-      "sha256": "526d3b3e5b7c310ceb1b4bc8000f630b8e8709c1740e691ef85218eeb9afb8af"
+      "bytes": 10191,
+      "sha256": "a9b1547c9e992eedd09ce1f01e31b07f5f8d8928b76fbde713ae5c790cc6adbd"
     },
     {
       "path": "site/assets/cloud-waypoint-social.svg",
@@ -405,8 +405,8 @@
     {
       "path": "site/foundation.html",
       "role": "site-page",
-      "bytes": 13483,
-      "sha256": "e62ce45d5d603ffc40880371ce335e4caf53955bf2c5d88043f53ad01869e52e"
+      "bytes": 10197,
+      "sha256": "907bc6077b63014aa10d5e3574d52baa949f402ddea93c7df72e2be6a2444cfb"
     },
     {
       "path": "site/index.html",
@@ -417,26 +417,26 @@
     {
       "path": "site/journey.html",
       "role": "site-page",
-      "bytes": 8441,
-      "sha256": "1c501fee036e323545d1632a45b15ce57c69262ffdf76e2abd27eecf9792b2a5"
+      "bytes": 9976,
+      "sha256": "1bae2731ac21262dcf8f4463817ac89b1c66d5280b0f07a82cd261fb2a6b7ae1"
     },
     {
       "path": "site/jwcc.html",
       "role": "site-page",
-      "bytes": 11829,
-      "sha256": "95c572334ac1fa36ff3abe1746836043bd6ffef20c9e1fbb42a720f90dd940a7"
+      "bytes": 10931,
+      "sha256": "9cd148c0ce94d89a8a7503293e62382a314db40cc4f873a3df5a5a993d329d9f"
     },
     {
       "path": "site/launch.html",
       "role": "site-page",
-      "bytes": 9206,
-      "sha256": "0b61b69992c85cc5dcc11619daebeefdab120e52fc42640171948ec48a4e8ba3"
+      "bytes": 11497,
+      "sha256": "d0cb6f49e090fc90b03c10182465af837c43ac95b09511c6da2c393b6ef6bc2f"
     },
     {
       "path": "site/operate.html",
       "role": "site-page",
-      "bytes": 10007,
-      "sha256": "8a8ca9f6a04fcb532edffc8b619c6c8a939940916b59351953b24030f51dea00"
+      "bytes": 12335,
+      "sha256": "08d6b10e3e828ffa69bebbfbbd58825a58851b7f66c8a21e8c7cf18636e78425"
     },
     {
       "path": "site/robots.txt",
@@ -447,8 +447,8 @@
     {
       "path": "site/workshop.html",
       "role": "site-page",
-      "bytes": 9029,
-      "sha256": "ce5aca242035e8280c0938d5736885df423a7afde7705d4d1686989a6876cd7a"
+      "bytes": 11657,
+      "sha256": "1c380cd564fc281f385c260735ed7c3ac120dc4a6596be8d0124b447054af52b"
     }
   ]
 }
