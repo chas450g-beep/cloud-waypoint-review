@@ -44,3 +44,25 @@ html[data-page=home] .cards article>span{width:2.25rem;height:2.25rem;display:gr
 @media(max-width:900px){.page-hero{grid-template-columns:1fr;min-height:0;padding-block:3.5rem;gap:3rem}.page-hero> :not(.hero-copy){max-width:620px;justify-self:center}.page-hero .hero-copy{max-width:700px}.page-hero h1{font-size:clamp(2.5rem,6vw,3.8rem);max-width:18ch}html[data-page=home] .page-hero h1{max-width:none;font-size:clamp(3.5rem,9vw,5.6rem)}.statement,.outcomes{grid-template-columns:1fr;gap:1rem}.statement>p{margin:0}.closing{grid-template-columns:1fr}.closing>.button{grid-column:1;justify-self:start;margin-top:1rem}.role-rail{grid-template-columns:1fr}.evidence-flow>div{grid-template-columns:1fr}.evidence-flow i{text-align:center;transform:rotate(90deg)}.cards{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.page-hero,.statement,.phase-grid,.journey-steps,.agenda,.outcomes,.callout,.deliverable-strip,.evidence-flow,.role-rail,.provider-band,.video-section,.closing{padding:3rem 1.25rem}.page-hero .hero-copy>p{font-size:1.0625rem}.cards{grid-template-columns:1fr}.cards article{grid-template-rows:auto auto auto;padding:1.5rem}.cards h3{min-height:0}.cards article>span{margin-bottom:1rem}html[data-page=home] .cards{gap:1rem}.actions{flex-direction:column}.evidence-sources{gap:.8rem}.evidence-sources b{font-size:1rem}.evidence-sources span{font-size:.75rem}.evidence-outputs{font-size:.75rem;gap:.5rem}.readiness-figure figcaption{font-size:.8rem}.track .bar-1{width:11.111%;margin-left:0}.track .bar-2{width:33.333%;margin-left:11.111%}.track .bar-3{width:66.666%;margin-left:16.666%}.track .bar-4{width:22.222%;margin-left:77.777%}.scale{display:grid;font-size:.7rem}.program-map{padding:1.2rem}.ops-loop{max-width:350px}.ops-loop b{font-size:.9rem}.ops-loop span{font-size:.75rem}.ops-loop>div{width:48%}.ops-loop>div:nth-child(1),.ops-loop>div:nth-child(3){left:26%}.cw-footer-inner{width:calc(100% - 40px)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+
+/* Page figures and the restored tables, 2026-09-12 (owner review of the eight-page site).
+   The hero figures replace the stacked label blocks on Foundations, Services Bridge and Evidence;
+   the option cards carry the Start page's operating-model decision; the RACI returns to Operate.
+   Every figure is static SVG with presentation attributes, so style-src 'self' admits it. */
+.fig{display:block;width:100%;height:auto;max-width:100%}
+.page-hero .fig{border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.option-cards article{display:flex;flex-direction:column}
+.option-cards ul{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-direction:column;gap:8px}
+.option-cards li{position:relative;padding-left:16px;color:var(--muted);font-size:15px;line-height:1.5}
+.option-cards li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;background:var(--gold)}
+.role-table.raci tbody th{width:30%}
+.role-table.raci td{width:14%;text-align:center;font-weight:700;font-family:var(--mono,ui-monospace,Menlo,monospace);color:var(--ink);white-space:nowrap}
+.role-table.raci thead th{font-size:13px;line-height:1.35;vertical-align:bottom}
+.role-table.raci{font-size:15px}
+.figwrap{max-width:100%}
+@media(max-width:900px){
+  .figwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+  .figwrap .fig{min-width:660px;border:0;border-radius:0}
+  .figwrap:focus-visible{outline:3px solid var(--gold-ink);outline-offset:3px}
+}
