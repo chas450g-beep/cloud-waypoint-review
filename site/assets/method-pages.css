@@ -314,3 +314,7 @@ main>section.layer:nth-of-type(even){background:var(--surface)}
 /* A statement whose right column carries more than one paragraph and its own actions (the Reference Studio on standards). */
 .statement-body p{margin:0 0 1rem;font-size:1.15rem;line-height:1.72}
 .statement-body .actions{margin-top:1.5rem}
+
+/* The home page's core idea: a lead, a checklist and a line of small print (owner, 2026-09-12: the paragraph was too much for a first page). */
+.statement-body .checklist{margin:.25rem 0 0}
+.statement-body .fineprint{font-size:.9rem;line-height:1.55;margin:1.25rem 0 0;color:var(--muted)}
