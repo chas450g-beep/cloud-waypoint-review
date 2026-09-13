@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "0269692c6b2cb60fd74523fca68c1c7051aa0335",
-  "sourceCommitDate": "2026-09-12T17:06:03-06:00",
+  "sourceCommit": "8ddcaae250a42e241dfb5c58593c3ddfdd230c7b",
+  "sourceCommitDate": "2026-09-12T19:28:31-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -365,8 +365,8 @@
     {
       "path": "site/about.html",
       "role": "site-page",
-      "bytes": 11383,
-      "sha256": "8329a1ab3dd896500431710e2108785c4fd197a0730358e9db34aa2eb911e886"
+      "bytes": 11461,
+      "sha256": "80226d1112ee4ccde6d8a76d499c562c808a3af22fa64ac51da998a21ad4b138"
     },
     {
       "path": "site/assets/cloud-waypoint-social.svg",
@@ -377,26 +377,26 @@
     {
       "path": "site/assets/engagement-overview/captions.vtt",
       "role": "site-asset",
-      "bytes": 4389,
-      "sha256": "c11a96f34bd6a02eaa32aa49e1a97426712438e8c04ead870a7cbaeec23519e1"
+      "bytes": 4348,
+      "sha256": "4e65f7e9b4e1fe9c96ee7450b38aca5f552c22ee9755673a71eae578b1e77d3a"
     },
     {
       "path": "site/assets/engagement-overview/overview.mp4",
       "role": "site-asset",
-      "bytes": 1271232,
-      "sha256": "5eaca9f44541a19f450cedcc4f5921820d3d35cda356942c87063ba4f2fff7de"
+      "bytes": 6584917,
+      "sha256": "52be95ff9cf3d96232634b96ac01f6c14cff72498d09bd48c1cc6612c748bf00"
     },
     {
       "path": "site/assets/engagement-overview/poster.png",
       "role": "site-asset",
-      "bytes": 125241,
-      "sha256": "26c5f651cb8add55e72b3b4dbb17ab3b341d18cffe1dc6323d498dd7a9a3389c"
+      "bytes": 375377,
+      "sha256": "70bc670f8c33579fcbd53d63cd1b0e8b6a9ad2e562a93c1df1b909fab2d9e9c5"
     },
     {
       "path": "site/assets/engagement-overview/transcript.txt",
       "role": "site-asset",
-      "bytes": 3617,
-      "sha256": "0004f4d197bf96e184374700c92fc60ad8deebaeacc6b2107495a38733dc28ce"
+      "bytes": 3556,
+      "sha256": "ed6dc3499144c612bd880b6daa579da54948608d2df82a3820a6357bede5f6b9"
     },
     {
       "path": "site/assets/favicon.svg",

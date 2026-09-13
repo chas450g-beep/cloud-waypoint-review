@@ -1,38 +1,44 @@
 Cloud Waypoint — engagement overview
-AI-generated narration. Studio and report examples are fictional.
+AI-generated narration. Studio and laboratory examples are fictional.
 
-From cloud decision to durable operation
-A cloud landing zone is a starting point. Your mission still needs a path it can execute and sustain. Cloud Waypoint helps you move from cloud decision to durable operation, with useful work your agency can own.
+Arrive ready.
+A landing zone can take months to authorize. Your applications don't have to wait for it. Cloud Waypoint is a readiness program for missions adopting cloud through JWCC, so the mission arrives ready when the environment does.
 
-Start where your mission needs help
-Start where you are: choosing a path, establishing the foundation, preparing a first workload, or improving operations. Together, we define the outcome, scope, decision owners, and handover for a bounded engagement.
+Use the runway.
+The readiness work runs alongside landing-zone delivery, not after it. Foundations takes about six weeks, dependency mapping about twelve, and launch preparation overlaps both. The whole shape is about eighteen weeks. That timing is illustrative, not a promise.
 
-Standards guide the questions. Your evidence shapes the answer.
-We draw on the NIST Risk Management Framework, security controls, the DoD Cloud Computing Security Requirements Guide, and Zero Trust. Operating practices add reliability and cost discipline. These guide the questions; your evidence shapes the answer.
+Find the real starting point.
+It starts with a three-hour working session on the mission, the estate, the boundary, and current readiness. The workshop finds the right starting path. It does not choose your operating model. That decision stays with the mission.
 
-The work starts with a real engagement record
-Here is the actual Studio, using a fictional engagement. Intake records the mission, scope, operating context, people, and handling rules. Evidence stays linked to its source, owner, and limitations, so the recommendation can be explained and challenged.
+Design the environment applications will enter.
+Foundations turns mission knowledge and existing artifacts into a proposed general support system: its boundary, its shared services, its security and identity layers, and an owner for each.
 
-Your participation makes the work useful
-Your team is an active partner. Respond to data calls, bring procedures and evidence through approved channels, and make owners available for interviews and workshops. Confirm facts and resolve disagreements. Missing information stays visible.
+Observed does not mean approved.
+Dependency mapping shows how workloads actually communicate. Owners review what was seen and confirm what is needed. The result becomes migration waves and authorization inputs, built around application communities rather than isolated servers.
 
-What does the engagement give you?
-What do you take away? This complete example groups fifteen outputs into five connected packages, plus an implementation handoff. Depth follows the agreed scope, with evidence, open work, and next owners visible.
+Design day two before day one.
+A sound environment still fails without clear ownership. So day two is designed first: who monitors, who approves change, who responds to incidents, and who keeps the evidence current.
 
-A clear position—and a leadership decision
-The foundations receipt establishes the engagement basis. The assessment and technical analysis explain the current position and supporting evidence. The executive brief brings the material findings, choices, uncertainties, and recommended next decisions into a form leadership can use.
+Standards guide the questions.
+The standards behind the method are public. The Reference Studio indexes the governing sources, from the DoD Cloud Computing Security Requirements Guide to the Risk Management Framework, each with its publisher, its edition, and when it was last verified.
 
-A practical road ahead
-The transformation storyboard connects the story. The road ahead and transformation plan turn it into proposed work, dependencies, owners, and acceptance measures. Your team reviews the priorities and sequence, so the plan reflects a decision you can act on.
+And what must not be inferred.
+Search an impact level and every result says what its source supports, and what it doesn't. A listed service still needs its authorization-scope checks, and an impact-level label alone doesn't choose an environment.
 
-The foundation for secure, usable operations
-For the agreed GSS scope, the concept of operations describes how the environment is intended to work. The draft system security plan and plan of action and milestones organize control responsibilities, evidence needs, and unresolved work for accountable review.
+Where the model stops, and a person decides.
+The GULF laboratory uses a fictional specimen to show how an authorization package comes together, and exactly where the model stops so a named official can decide.
 
-Readiness with the conditions still visible
-The authorization readiness receipt, GSS exit receipt, and readiness report preserve the conditions and evidence behind the next gate. They support preparation and review. Authorization and risk acceptance remain with your responsible officials.
+A real process, not a web page.
+The method runs in a real application. This is the NatSec studio working a fictional engagement: one record, seven stages, and every fact traced back to its source.
 
-A handover your chosen team can use
-The delivery note and closeout receipt inventory the handover. The implementation handoff carries boundaries, dependencies, responsibilities, and acceptance criteria to your chosen team. The continuation view keeps weekly changes, open actions, and client inputs visible.
+Nine decisions, each with an owner.
+Discovery feeds the applications register and the dependency map. The general support system is settled through nine decisions, each checked against its evidence and owned by a named person.
 
-Your mission. Your decisions. Your operating capability.
-Success takes participation: timely evidence, candid interviews, review of the work, named owners, and knowledge transfer. The result is a defensible path, useful artifacts, and a next move your team understands. If you cannot run it after we leave, it does not ship.
+Fifteen deliverables. One record.
+Every deliverable prints from that same record: the executive brief, the transformation plan, the draft security plan. Fifteen in all, each sized for its reader, each tracing back to the same evidence.
+
+Cloud Waypoint does not compete with the landing zone.
+Cloud Waypoint doesn't sell the cloud, replace your provider, or grant authorization. It builds the readiness between cloud access and mission adoption, alongside whoever delivers the environment.
+
+Know what you are moving. Design where it is going. Build security into the plan.
+Evidence informs. Named individuals with authority decide, and the authorizing official keeps every authorization decision. To talk about your mission, visit cloud-waypoint dot com.
