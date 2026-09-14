@@ -203,7 +203,7 @@ html[data-page=home] .page-hero .fig.plate{--pl-bg:#0d2540;--pl-panel:#14314f;--
 @media (prefers-reduced-motion:reduce){.hold-bar.wait,.hold-letter{transition:none}}
 @media (max-width:600px){.hold,.layer{padding:3rem 1.25rem}.hold-bar .mo{display:none}}
 
-/* Question-and-outcome steps: the mandate journey, the six-week moves, the five authorization moves. */
+/* Question-and-outcome steps: the mandate journey, the engagement's moves, the five authorization moves. */
 .agenda>header p{color:var(--muted);font-size:1.1rem;margin:14px 0 0;max-width:800px}
 .agenda li>div>small,.gate{display:block;color:var(--gold-ink);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px}
 .agenda .gate{margin:12px 0 0;letter-spacing:.04em;text-transform:none}
@@ -237,6 +237,7 @@ main>section.layer:nth-of-type(even){background:var(--surface)}
 .cards.four{grid-template-columns:repeat(4,minmax(0,1fr))}
 .cards.two{grid-template-columns:repeat(2,minmax(0,1fr))}
 .readers li b{display:block;color:var(--ink);font-size:15.5px}
+.readers li .reader{display:block;margin:1px 0 3px;color:var(--gold-ink);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
 .zt{font-size:10.5px;font-weight:700;letter-spacing:.06em;color:var(--gold-ink);border:1px solid var(--gold-edge);border-radius:3px;padding:0 5px;margin-left:6px;text-decoration:none;vertical-align:2px}
 .claims{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px;border-top:1px solid var(--line)}
 .claims details{border-bottom:1px solid var(--line)}
