@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "0da4fe826e377bae3841561ce6159335482346f3",
-  "sourceCommitDate": "2026-09-14T09:57:55-06:00",
+  "sourceCommit": "443daabf9c0f22ede95897d0253314816b104619",
+  "sourceCommitDate": "2026-09-14T10:17:39-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -117,7 +117,7 @@
       "key": "closeoutprint",
       "name": "Closeout receipt",
       "bytes": 135896,
-      "sha256": "02c1c4944131944995ba4ee22dfe9dde3afe349dd178b7065905cf2f37a92463"
+      "sha256": "7b2dd426dea1b28830793f1a2e3aa9a4a5109c3512e08dcdd4a7c3c65b83dac9"
     },
     {
       "path": "reports/natsec/conopsdoc.html",
@@ -252,7 +252,7 @@
       "key": "closeoutprint",
       "name": "Closeout receipt",
       "bytes": 136202,
-      "sha256": "c8ed21618eeb98eff7e70bfbe35e037f550ee08a548d36b9d14dcef9be36dce8"
+      "sha256": "32ac1f70ff12d6a46b5e98bf0c5720330611b90452c41c8e4d3d06da22f9eef6"
     },
     {
       "path": "reports/pubsec/conopsdoc.html",
