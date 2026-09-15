@@ -5,7 +5,7 @@ Arrive ready.
 A landing zone can take months to authorize. Your applications don't have to wait for it. Cloud Waypoint is a readiness program for missions adopting cloud through JWCC, so the mission arrives ready when the environment does.
 
 Use the runway.
-The readiness work runs alongside landing-zone delivery, not after it. Foundations takes about six weeks, dependency mapping about twelve, and launch preparation overlaps both. The whole shape is about eighteen weeks. That timing is illustrative, not a promise.
+The readiness work runs alongside landing-zone delivery, not after it. Foundations takes about eight weeks, the two advance weeks of the data call included. Dependency mapping runs about twelve, and launch preparation overlaps both. The whole shape is about twenty weeks. That timing is illustrative, not a promise.
 
 Find the real starting point.
 It starts with a three-hour working session on the mission, the estate, the boundary, and current readiness. The workshop finds the right starting path. It does not choose your operating model. That decision stays with the mission.
@@ -34,8 +34,8 @@ The method runs in a real application. This is the NatSec studio working a ficti
 Nine decisions, each with an owner.
 Discovery feeds the applications register and the dependency map. The general support system is settled through nine decisions, each checked against its evidence and owned by a named person.
 
-Fifteen deliverables. One record.
-Every deliverable prints from that same record: the executive brief, the transformation plan, the draft security plan. Fifteen in all, each sized for its reader, each tracing back to the same evidence.
+Every package. One record.
+Every deliverable prints from that same record: the executive brief, the transformation plan, the draft security plan. They arrive as packages, the midpoint snapshot at week four, then the readiness, transformation and final packages at week eight, each sized for its reader, each tracing back to the same evidence.
 
 Cloud Waypoint does not compete with the landing zone.
 Cloud Waypoint doesn't sell the cloud, replace your provider, or grant authorization. It builds the readiness between cloud access and mission adoption, alongside whoever delivers the environment.

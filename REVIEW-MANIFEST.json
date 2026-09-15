@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "20bf63a3b9d59705f1b6b28d963192c50adf658b",
-  "sourceCommitDate": "2026-09-14T18:01:45-06:00",
+  "sourceCommit": "f1547936b7a95eac8b27c588db94504a2006b98c",
+  "sourceCommitDate": "2026-09-14T19:34:22-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -353,26 +353,26 @@
     {
       "path": "site/assets/engagement-overview/captions.vtt",
       "role": "site-asset",
-      "bytes": 4348,
-      "sha256": "4e65f7e9b4e1fe9c96ee7450b38aca5f552c22ee9755673a71eae578b1e77d3a"
+      "bytes": 4609,
+      "sha256": "de5875011a5743324baa98a21a4d68a422b4fce34a83a2300e015dfaf54cb774"
     },
     {
       "path": "site/assets/engagement-overview/overview.mp4",
       "role": "site-asset",
-      "bytes": 6584917,
-      "sha256": "52be95ff9cf3d96232634b96ac01f6c14cff72498d09bd48c1cc6612c748bf00"
+      "bytes": 7117349,
+      "sha256": "fd3c36d1b8216122e4ead263a7cc216fa0921e760377c05e9632b486d4d787f2"
     },
     {
       "path": "site/assets/engagement-overview/poster.png",
       "role": "site-asset",
-      "bytes": 375377,
-      "sha256": "70bc670f8c33579fcbd53d63cd1b0e8b6a9ad2e562a93c1df1b909fab2d9e9c5"
+      "bytes": 376633,
+      "sha256": "6d28c2eca3917905f6b3315d6e893853ba11b847b1c0c2941f62997d0785f547"
     },
     {
       "path": "site/assets/engagement-overview/transcript.txt",
       "role": "site-asset",
-      "bytes": 3556,
-      "sha256": "ed6dc3499144c612bd880b6daa579da54948608d2df82a3820a6357bede5f6b9"
+      "bytes": 3717,
+      "sha256": "d9b48868c7a11477ceacbe8ea77fe563a6349a1f2288ff3bece8510ccf393b68"
     },
     {
       "path": "site/assets/favicon.svg",

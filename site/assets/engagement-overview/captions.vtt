@@ -6,134 +6,143 @@ A landing zone can take months to authorize. Your applications don't
 00:00:04.524 --> 00:00:08.398
 have to wait for it. Cloud Waypoint is a readiness program
 
-00:00:08.398 --> 00:00:12.272
+00:00:08.398 --> 00:00:12.271
 for missions adopting cloud through JWCC, so the mission arrives ready
 
-00:00:12.272 --> 00:00:13.680
+00:00:12.271 --> 00:00:13.680
 when the environment does.
 
-00:00:15.180 --> 00:00:19.899
+00:00:15.180 --> 00:00:19.400
 The readiness work runs alongside landing-zone delivery, not after it. Foundations
 
-00:00:19.899 --> 00:00:24.618
-takes about six weeks, dependency mapping about twelve, and launch preparation
+00:00:19.400 --> 00:00:23.621
+takes about eight weeks, the two advance weeks of the data
 
-00:00:24.618 --> 00:00:29.336
-overlaps both. The whole shape is about eighteen weeks. That timing
+00:00:23.621 --> 00:00:27.841
+call included. Dependency mapping runs about twelve, and launch preparation overlaps
 
-00:00:29.336 --> 00:00:31.481
-is illustrative, not a promise.
+00:00:27.841 --> 00:00:32.061
+both. The whole shape is about twenty weeks. That timing is
 
-00:00:32.981 --> 00:00:36.725
+00:00:32.061 --> 00:00:33.596
+illustrative, not a promise.
+
+00:00:35.096 --> 00:00:38.840
 It starts with a three-hour working session on the mission, the
 
-00:00:36.725 --> 00:00:40.469
+00:00:38.840 --> 00:00:42.583
 estate, the boundary, and current readiness. The workshop finds the right
 
-00:00:40.469 --> 00:00:44.213
+00:00:42.583 --> 00:00:46.327
 starting path. It does not choose your operating model. That decision
 
-00:00:44.213 --> 00:00:45.574
+00:00:46.327 --> 00:00:47.689
 stays with the mission.
 
-00:00:47.074 --> 00:00:51.117
+00:00:49.189 --> 00:00:53.232
 Foundations turns mission knowledge and existing artifacts into a proposed general
 
-00:00:51.117 --> 00:00:55.160
+00:00:53.232 --> 00:00:57.274
 support system: its boundary, its shared services, its security and identity
 
-00:00:55.160 --> 00:00:57.365
+00:00:57.274 --> 00:00:59.480
 layers, and an owner for each.
 
-00:00:58.865 --> 00:01:03.607
+00:01:00.980 --> 00:01:05.722
 Dependency mapping shows how workloads actually communicate. Owners review what was
 
-00:01:03.607 --> 00:01:08.350
+00:01:05.722 --> 00:01:10.465
 seen and confirm what is needed. The result becomes migration waves
 
-00:01:08.350 --> 00:01:13.093
+00:01:10.465 --> 00:01:15.208
 and authorization inputs, built around application communities rather than isolated servers.
 
-00:01:14.593 --> 00:01:18.804
+00:01:16.708 --> 00:01:20.919
 A sound environment still fails without clear ownership. So day two
 
-00:01:18.804 --> 00:01:23.016
+00:01:20.919 --> 00:01:25.131
 is designed first: who monitors, who approves change, who responds to
 
-00:01:23.016 --> 00:01:25.696
+00:01:25.131 --> 00:01:27.811
 incidents, and who keeps the evidence current.
 
-00:01:27.196 --> 00:01:31.142
+00:01:29.311 --> 00:01:33.256
 The standards behind the method are public. The Reference Studio indexes
 
-00:01:31.142 --> 00:01:35.087
+00:01:33.256 --> 00:01:37.202
 the governing sources, from the DoD Cloud Computing Security Requirements Guide
 
-00:01:35.087 --> 00:01:39.033
+00:01:37.202 --> 00:01:41.148
 to the Risk Management Framework, each with its publisher, its edition,
 
-00:01:39.033 --> 00:01:41.185
+00:01:41.148 --> 00:01:43.300
 and when it was last verified.
 
-00:01:42.685 --> 00:01:46.709
+00:01:44.800 --> 00:01:48.824
 Search an impact level and every result says what its source
 
-00:01:46.709 --> 00:01:50.733
+00:01:48.824 --> 00:01:52.848
 supports, and what it doesn't. A listed service still needs its
 
-00:01:50.733 --> 00:01:54.757
+00:01:52.848 --> 00:01:56.872
 authorization-scope checks, and an impact-level label alone doesn't choose an environment.
 
-00:01:56.257 --> 00:02:00.037
+00:01:58.372 --> 00:02:02.152
 The GULF laboratory uses a fictional specimen to show how an
 
-00:02:00.037 --> 00:02:03.818
+00:02:02.152 --> 00:02:05.933
 authorization package comes together, and exactly where the model stops so
 
-00:02:03.818 --> 00:02:05.537
+00:02:05.933 --> 00:02:07.652
 a named official can decide.
 
-00:02:07.037 --> 00:02:10.855
+00:02:09.152 --> 00:02:12.969
 The method runs in a real application. This is the NatSec
 
-00:02:10.855 --> 00:02:14.672
+00:02:12.969 --> 00:02:16.787
 studio working a fictional engagement: one record, seven stages, and every
 
-00:02:14.672 --> 00:02:16.755
+00:02:16.787 --> 00:02:18.870
 fact traced back to its source.
 
-00:02:18.255 --> 00:02:22.229
+00:02:20.370 --> 00:02:24.344
 Discovery feeds the applications register and the dependency map. The general
 
-00:02:22.229 --> 00:02:26.204
+00:02:24.344 --> 00:02:28.318
 support system is settled through nine decisions, each checked against its
 
-00:02:26.204 --> 00:02:28.733
+00:02:28.318 --> 00:02:30.848
 evidence and owned by a named person.
 
-00:02:30.233 --> 00:02:34.365
+00:02:32.348 --> 00:02:36.374
 Every deliverable prints from that same record: the executive brief, the
 
-00:02:34.365 --> 00:02:38.496
-transformation plan, the draft security plan. Fifteen in all, each sized
+00:02:36.374 --> 00:02:40.401
+transformation plan, the draft security plan. They arrive as packages, the
 
-00:02:38.496 --> 00:02:42.253
-for its reader, each tracing back to the same evidence.
+00:02:40.401 --> 00:02:44.427
+midpoint snapshot at week four, then the readiness, transformation and final
 
-00:02:43.753 --> 00:02:48.493
+00:02:44.427 --> 00:02:48.454
+packages at week eight, each sized for its reader, each tracing
+
+00:02:48.454 --> 00:02:50.284
+back to the same evidence.
+
+00:02:51.784 --> 00:02:56.524
 Cloud Waypoint doesn't sell the cloud, replace your provider, or grant
 
-00:02:48.493 --> 00:02:53.232
+00:02:56.524 --> 00:03:01.264
 authorization. It builds the readiness between cloud access and mission adoption,
 
-00:02:53.232 --> 00:02:55.387
+00:03:01.264 --> 00:03:03.418
 alongside whoever delivers the environment.
 
-00:02:56.887 --> 00:03:02.487
+00:03:04.918 --> 00:03:10.518
 Evidence informs. Named individuals with authority decide, and the authorizing official
 
-00:03:02.487 --> 00:03:08.087
+00:03:10.518 --> 00:03:16.118
 keeps every authorization decision. To talk about your mission, visit cloud-waypoint
 
-00:03:08.087 --> 00:03:09.105
+00:03:16.118 --> 00:03:17.136
 dot com.
