@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "ac2c83cb42bcf432a882e52f9d1f47cc28b5be70",
-  "sourceCommitDate": "2026-09-15T05:40:28-06:00",
+  "sourceCommit": "20beb6f889422f2a0be21f52131ad37b129fe651",
+  "sourceCommitDate": "2026-09-15T05:44:29-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -419,14 +419,14 @@
     {
       "path": "site/index.html",
       "role": "site-page",
-      "bytes": 17960,
-      "sha256": "81599188a95359f98dfdcd25a2e62c2da28afd0b29e17ec59d8bfc93cedc6daa"
+      "bytes": 17990,
+      "sha256": "b6e91f40792ea56715a69f161b7d3e12e5d252f7ae4ab4a055a79ab2210a4fd4"
     },
     {
       "path": "site/journey.html",
       "role": "site-page",
-      "bytes": 20825,
-      "sha256": "f8d8a752a9f642949a1e5c799845577fd67f7dd36de2ba09c62a5c488eeb491c"
+      "bytes": 20878,
+      "sha256": "51d2eb4bd16bf95ddbb827d9723b0dc4b06f4264c0fbac944aa01d9daf06f84d"
     },
     {
       "path": "site/jwcc.html",
