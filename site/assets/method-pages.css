@@ -16,7 +16,7 @@ main>section{border-bottom:1px solid var(--line)}
 .page-hero{min-height:660px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:4rem;padding-block:5rem}
 .page-hero>*{min-width:0;width:100%}.page-hero .hero-copy{padding:0}
 .page-hero h1{font-size:clamp(2.6rem,4.5vw,4.3rem);line-height:1.08;letter-spacing:-.045em}
-html[data-page=home] .page-hero h1{font-size:clamp(4rem,7vw,6.7rem);max-width:6.5ch;line-height:.98}
+html[data-page=home] body:not(.executive) .page-hero h1{font-size:clamp(4rem,7vw,6.7rem);max-width:6.5ch;line-height:.98}
 .page-hero .hero-copy>p{font-size:1.2rem;line-height:1.65}
 .actions{align-items:stretch}.button{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:.9rem;font-weight:700;line-height:1.4}
 .statement,.outcomes{gap:4rem}.statement>p{margin:2rem 0 0;font-size:1.15rem}
@@ -41,7 +41,7 @@ html[data-page=home] .cards article>span{width:2.25rem;height:2.25rem;display:gr
 .dep-figure{margin:0}.dep-figure svg{width:100%;height:auto}.dep-edge{fill:none;stroke:var(--gold-edge);stroke-width:2}.dep-group{fill:var(--surface);stroke:var(--diagram-ink);stroke-width:1.5}.dep-label{fill:var(--ink);font:600 23px var(--brand-font);text-anchor:middle}.dep-satellite{fill:var(--gold);stroke:var(--surface);stroke-width:3}.dep-figure figcaption{text-align:center;font-size:.85rem;color:var(--muted);margin-top:1rem}
 .ops-loop{padding:0;width:min(470px,100%);border:none;background:none;display:block}.ops-loop:before{content:"";position:absolute;inset:23%;border:2px solid var(--gold-edge);border-radius:50%}.ops-loop>div{position:absolute;width:45%;background:var(--paper);z-index:1;padding:.5rem}.ops-loop>div:nth-child(1){top:3%;left:27.5%}.ops-loop>div:nth-child(2){top:41%;right:-2%}.ops-loop>div:nth-child(3){bottom:3%;left:27.5%}.ops-loop>div:nth-child(4){top:41%;left:-2%}.ops-loop>i{inset:40%;font-size:1rem}.ops-loop span{font-size:.8rem}
 @media(max-width:1100px){.cw-primary{display:none}.cw-menu{display:block}.cw-primary.is-open{display:grid;position:absolute;top:100%;left:0;right:0;background:var(--paper);padding:1.5rem;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--line)}.page-hero{gap:2.5rem}.page-hero h1{font-size:2.9rem}.cards article{padding:1.3rem}}
-@media(max-width:900px){.page-hero{grid-template-columns:1fr;min-height:0;padding-block:3.5rem;gap:3rem}.page-hero> :not(.hero-copy){max-width:620px;justify-self:center}.page-hero .hero-copy{max-width:700px}.page-hero h1{font-size:clamp(2.5rem,6vw,3.8rem);max-width:18ch}html[data-page=home] .page-hero h1{max-width:none;font-size:clamp(3.5rem,9vw,5.6rem)}.statement,.outcomes{grid-template-columns:1fr;gap:1rem}.statement>p{margin:0}.closing{grid-template-columns:1fr}.closing>.button{grid-column:1;justify-self:start;margin-top:1rem}.role-rail{grid-template-columns:1fr}.evidence-flow>div{grid-template-columns:1fr}.evidence-flow i{text-align:center;transform:rotate(90deg)}.cards{grid-template-columns:1fr 1fr}}
+@media(max-width:900px){.page-hero{grid-template-columns:1fr;min-height:0;padding-block:3.5rem;gap:3rem}.page-hero> :not(.hero-copy){max-width:620px;justify-self:center}.page-hero .hero-copy{max-width:700px}.page-hero h1{font-size:clamp(2.5rem,6vw,3.8rem);max-width:18ch}html[data-page=home] body:not(.executive) .page-hero h1{max-width:none;font-size:clamp(3.5rem,9vw,5.6rem)}.statement,.outcomes{grid-template-columns:1fr;gap:1rem}.statement>p{margin:0}.closing{grid-template-columns:1fr}.closing>.button{grid-column:1;justify-self:start;margin-top:1rem}.role-rail{grid-template-columns:1fr}.evidence-flow>div{grid-template-columns:1fr}.evidence-flow i{text-align:center;transform:rotate(90deg)}.cards{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.page-hero,.statement,.phase-grid,.journey-steps,.agenda,.outcomes,.callout,.deliverable-strip,.evidence-flow,.role-rail,.provider-band,.video-section,.closing{padding:3rem 1.25rem}.page-hero .hero-copy>p{font-size:1.0625rem}.cards{grid-template-columns:1fr}.cards article{grid-template-rows:auto auto auto;padding:1.5rem}.cards h3{min-height:0}.cards article>span{margin-bottom:1rem}html[data-page=home] .cards{gap:1rem}.actions{flex-direction:column}.evidence-sources{gap:.8rem}.evidence-sources b{font-size:1rem}.evidence-sources span{font-size:.75rem}.evidence-outputs{font-size:.75rem;gap:.5rem}.readiness-figure figcaption{font-size:.8rem}.track .bar-1{width:11.111%;margin-left:0}.track .bar-2{width:33.333%;margin-left:11.111%}.track .bar-3{width:66.666%;margin-left:16.666%}.track .bar-4{width:22.222%;margin-left:77.777%}.scale{display:grid;font-size:.7rem}.program-map{padding:1.2rem}.ops-loop{max-width:350px}.ops-loop b{font-size:.9rem}.ops-loop span{font-size:.75rem}.ops-loop>div{width:48%}.ops-loop>div:nth-child(1),.ops-loop>div:nth-child(3){left:26%}.cw-footer-inner{width:calc(100% - 40px)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
@@ -74,10 +74,10 @@ html[data-page=home] .cards article>span{width:2.25rem;height:2.25rem;display:gr
 .stdlist .srcnote{display:block;font-size:13px;color:var(--muted)}
 @media(max-width:760px){.stdlist{grid-template-columns:1fr}}
 /* The home hero names the offer, so its label is a display line rather than a micro-kicker. */
-html[data-page=home] .page-hero .kicker{font-size:clamp(1.2rem,2.2vw,1.75rem);font-weight:600;letter-spacing:-.012em;text-transform:none;line-height:1.2;gap:14px;color:var(--gold-ink)}
-html[data-page=home] .page-hero .kicker:before{width:46px;height:2px}
-html[data-page=home] .page-hero h1{margin-top:18px}
-@media(max-width:600px){html[data-page=home] .page-hero .kicker{font-size:1.15rem;gap:10px}html[data-page=home] .page-hero .kicker:before{width:28px}}
+html[data-page=home] body:not(.executive) .page-hero .kicker{font-size:clamp(1.2rem,2.2vw,1.75rem);font-weight:600;letter-spacing:-.012em;text-transform:none;line-height:1.2;gap:14px;color:var(--gold-ink)}
+html[data-page=home] body:not(.executive) .page-hero .kicker:before{width:46px;height:2px}
+html[data-page=home] body:not(.executive) .page-hero h1{margin-top:18px}
+@media(max-width:600px){html[data-page=home] body:not(.executive) .page-hero .kicker{font-size:1.15rem;gap:10px}html[data-page=home] body:not(.executive) .page-hero .kicker:before{width:28px}}
 
 /* Dark-plate figures: the approved graphics concepts are dark-ground, so the plate carries its own
    colour and must not sit inside the light figure card. Theme-independent by design. */
@@ -138,8 +138,8 @@ html[data-page=home] .page-hero .fig.plate{--pl-bg:#0d2540;--pl-panel:#14314f;--
    between the headline's em box and its cap. Every term scales with the headline, so the alignment
    holds across the fluid range rather than at one width. */
 @media (min-width:900px){
-  html[data-page=home] .page-hero{align-items:start}
-  html[data-page=home] .page-hero .figwrap{margin-top:calc(1.2 * clamp(1.2rem,2.2vw,1.75rem) + 18px + 0.181 * clamp(4rem,7vw,6.7rem))}
+  html[data-page=home] body:not(.executive) .page-hero{align-items:start}
+  html[data-page=home] body:not(.executive) .page-hero .figwrap{margin-top:calc(1.2 * clamp(1.2rem,2.2vw,1.75rem) + 18px + 0.181 * clamp(4rem,7vw,6.7rem))}
 }
 
 /* ---- Salvage carry-forward, 2026-09-12: the hold, the mission map, the decision package, ATO acceleration ---- */
@@ -149,7 +149,7 @@ html[data-page=home] .page-hero .fig.plate{--pl-bg:#0d2540;--pl-panel:#14314f;--
 @media (min-width:601px){.page-hero,.statement,.phase-grid,.journey-steps,.agenda,.outcomes,.callout,.deliverable-strip,.evidence-flow,.role-rail,.provider-band,.video-section,.closing,.hold,.layer{padding-inline:max(28px,calc((100vw - var(--wrap))/2))}}
 .cw-header-inner,.cw-footer-inner{max-width:var(--wrap)}
 @media (min-width:1101px){.page-hero h1{font-size:clamp(2.6rem,4.5vw,4.5rem)}}
-@media (min-width:900px){html[data-page=home] .page-hero h1{font-size:clamp(4rem,7vw,7rem)}html[data-page=home] .page-hero .kicker{font-size:clamp(1.2rem,2.2vw,2.2rem)}html[data-page=home] .page-hero .figwrap{margin-top:calc(1.2 * clamp(1.2rem,2.2vw,2.2rem) + 18px + 0.181 * clamp(4rem,7vw,7rem))}}
+@media (min-width:900px){html[data-page=home] body:not(.executive) .page-hero h1{font-size:clamp(4rem,7vw,7rem)}html[data-page=home] body:not(.executive) .page-hero .kicker{font-size:clamp(1.2rem,2.2vw,2.2rem)}html[data-page=home] body:not(.executive) .page-hero .figwrap{margin-top:calc(1.2 * clamp(1.2rem,2.2vw,2.2rem) + 18px + 0.181 * clamp(4rem,7vw,7rem))}}
 
 /* The hold: eight month stops drive the chart through :has(); month 3 is the at-rest state. */
 .hold{background:var(--paper);padding-block:clamp(64px,8vw,118px)}
@@ -324,6 +324,7 @@ main>section.layer:nth-of-type(even){background:var(--surface)}
 .statement-body .fineprint{font-size:.9rem;line-height:1.55;margin:1.25rem 0 0;color:var(--muted)}
 
 /* Executive preparation pages: graphics carry relationships; detail opens on request. */
+html[data-page=home] .executive .page-hero .kicker{font-size:1.05rem;font-weight:600;line-height:1.5;letter-spacing:0;text-transform:none}
 .executive .page-hero{min-height:0;padding-block:4.5rem;gap:3.5rem;align-items:center;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}
 html[data-page=home] .executive .page-hero h1,.executive .page-hero h1{max-width:19ch;font-size:clamp(2.6rem,4.1vw,4rem);line-height:1.09;letter-spacing:-.04em}
 .executive .page-hero .hero-copy>p{font-size:1.18rem;line-height:1.6;max-width:44ch;margin-block:1.5rem}
