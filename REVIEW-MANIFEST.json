@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "f1547936b7a95eac8b27c588db94504a2006b98c",
-  "sourceCommitDate": "2026-09-14T19:34:22-06:00",
+  "sourceCommit": "1179c4149b68de59f2b6b8946a5a4cca169fe072",
+  "sourceCommitDate": "2026-09-15T05:14:47-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -341,8 +341,8 @@
     {
       "path": "site/about.html",
       "role": "site-page",
-      "bytes": 11449,
-      "sha256": "aff70118c0213e3fea45faa273e38207466aa32e29ae7bd1af2e27c8c23e2ccd"
+      "bytes": 12146,
+      "sha256": "4bffd287be673ef34323e953ee07850abffd890a4fdae2c21f1c87999c01cbdb"
     },
     {
       "path": "site/assets/cloud-waypoint-social.svg",
@@ -395,62 +395,62 @@
     {
       "path": "site/assets/site-shell.css",
       "role": "site-asset",
-      "bytes": 9853,
-      "sha256": "dd5d1a9eddd5aae28a33eb5fc8233744b5d7cf2f3c4acdda89d6a88d819b2bca"
+      "bytes": 10016,
+      "sha256": "a3236682f433cf5c4817e5f3bf675eadd5d3905b1a21f952ec7426910cb0879e"
     },
     {
       "path": "site/ato-acceleration.html",
       "role": "site-page",
-      "bytes": 27138,
-      "sha256": "485ce3101b2d80f479a00f477d72687e0a98352dfa8d67c6f6b2cf4a4ad3f616"
+      "bytes": 26992,
+      "sha256": "cfdce6e0dd7b0891d7e9a817b0851a161da6cf98c46d1ea4d7796f51242eeb1f"
     },
     {
       "path": "site/deliverables.html",
       "role": "site-page",
-      "bytes": 17689,
-      "sha256": "404edd2ca6448cb3b41ae4d844d4eedd1e4d8d3fa9c104674429bc1d3892d699"
+      "bytes": 17564,
+      "sha256": "a0dff491eedf3e0ea7e7f08388e0d5c76594bf002c0541b0de7bff2b9184b561"
     },
     {
       "path": "site/foundation.html",
       "role": "site-page",
-      "bytes": 14058,
-      "sha256": "255fa987b3a1c12e62f0e92ae36d4fad592c1555334cab59922e4f753105d198"
+      "bytes": 13898,
+      "sha256": "38d94d70c081b24ecc661c276bd42a95eef478b99579042a91765407000c9398"
     },
     {
       "path": "site/index.html",
       "role": "site-page",
-      "bytes": 12471,
-      "sha256": "6655a0f266597e398a94c6f4ffa8598f5278e5e2503421cf2d5840c000fd8485"
+      "bytes": 14010,
+      "sha256": "bf095695dce4435f337fe67c92d87cf8a4361decf94d5463049921277d145621"
     },
     {
       "path": "site/journey.html",
       "role": "site-page",
-      "bytes": 20094,
-      "sha256": "6dafe102dcae454b1afc80714b4e9a0f60ea5ef7266fdee48ab671bfa9c91a01"
+      "bytes": 20409,
+      "sha256": "eb84bb6bd14700185b187ace658e23535800cbdd9dc236e181d93d6cc41cd77e"
     },
     {
       "path": "site/jwcc.html",
       "role": "site-page",
-      "bytes": 11573,
-      "sha256": "fb9713c994b4161bd6cda790f2019cabfd6e4973744e216508fbb638da047673"
+      "bytes": 11422,
+      "sha256": "29e094cf7059e0b4844d45e936f8dc5b7630324897d7b66d9c0f3ae62f6c279d"
     },
     {
       "path": "site/launch.html",
       "role": "site-page",
-      "bytes": 12098,
-      "sha256": "3e3d3222e6a9c7e7420b1c336ef025785497ee1c6b12044eeea68e2a75dfe4e2"
+      "bytes": 11938,
+      "sha256": "6453eecf3ce97466f27461c94773d77e7b0b03d6684100f586a9582791ab2514"
     },
     {
       "path": "site/map.html",
       "role": "site-page",
-      "bytes": 25632,
-      "sha256": "556c354993995ebe5d1e7c42025da6261ab4ae86fc05136a8fe1ef0d54726360"
+      "bytes": 25484,
+      "sha256": "324be4dbd8d1d2ecfafa1c0d12dd3fb646a0ff100483e3e3d7bd32c532b53ce7"
     },
     {
       "path": "site/operate.html",
       "role": "site-page",
-      "bytes": 12825,
-      "sha256": "4b3fca08f38e03c5af8521b32f13446910bcd08d9d257af01a7a4e447d001f12"
+      "bytes": 12665,
+      "sha256": "4261ed4c76e3b721abdae4faa6f5711d8a0bb7c8d8b6af0311f04870656bccf0"
     },
     {
       "path": "site/robots.txt",
@@ -461,14 +461,14 @@
     {
       "path": "site/standards.html",
       "role": "site-page",
-      "bytes": 14110,
-      "sha256": "e059705b2ce1ba99414efa97ed372086dc65242c4d3ad17b4a17a6ad96b89643"
+      "bytes": 13965,
+      "sha256": "dce29cd5282a81bc0030d42460e1c40cb067f3bc409de30cc496414d745cc1e6"
     },
     {
       "path": "site/workshop.html",
       "role": "site-page",
-      "bytes": 14863,
-      "sha256": "48bd693d5883c0faa4fb16f8d9dba7c3ab2da38cd668b077b17d2690c4b9c78d"
+      "bytes": 14681,
+      "sha256": "7fc6345582fa467a85d1136c13af09fb78b89a0d79c5d711eea165c98c491c9d"
     }
   ]
 }
