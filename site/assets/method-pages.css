@@ -424,3 +424,5 @@ html[data-page=home] .executive .page-hero h1,.executive .page-hero h1{max-width
 .home-next-reads{display:flex;gap:1rem 2rem;flex-wrap:wrap;margin-top:1.5rem}.event-next{margin:1.5rem 0 0;padding-top:1rem;border-top:1px solid var(--line)}#next-decision .event-onramp{margin-top:0;padding-top:0;border-top:0}html[data-page=home] .exec-benefits h3{margin-top:0}html[data-page=home] .page-hero:has(.hero-intro){padding-top:2.5rem;padding-bottom:2.5rem}html[data-page=home] .hero-copy h1{margin-top:1rem;margin-bottom:1.25rem}html[data-page=home] .hero-copy .actions{margin-top:1.5rem}
 
 .event-preview-graphic .event-hero-title{font-size:clamp(1.2rem,2vw,1.6rem);line-height:1.25;letter-spacing:-.025em;color:#172b40;margin:0 0 .6rem}.event-preview-graphic .event-hero-intro{font-size:.92rem;line-height:1.5;color:#41576b;margin:0 0 1rem}
+/* WO-022 F-13: a stand-alone link is at least a 24px target on a phone (WCAG 2.5.8). Padding on an inline link grows the target, not the line. */
+.exec-annex-link a,.exec-note a{padding-block:4px}.exec-detail-links a{padding-block:3px}
