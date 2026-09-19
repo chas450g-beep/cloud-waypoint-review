@@ -1221,6 +1221,11 @@ table.instrument.il6 td{vertical-align:top;line-height:1.4}table.instrument.il6 
 table.positions tr.mine td{background:var(--cw-surface)}
 table.positions td.here{box-shadow:inset 0 0 0 2px var(--cw-navy-800)}
 
+/* CO-R108: the work-product downloads wrap in their own row */
+.wp-downloads{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 16px}
+.wp-more>summary{cursor:pointer;margin:6px 0;color:var(--cw-accent)}
+.instrument td.nw{white-space:nowrap}   /* CO-R108/WO-021: an id or a date never breaks mid-token */
+
 /* the printed look, on screen */
 .navtoggle{display:none!important}
 
