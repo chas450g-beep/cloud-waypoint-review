@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "04e0245988d5737030265bf2a8b593b7e5f6916d",
-  "sourceCommitDate": "2026-09-19T00:32:33-06:00",
+  "sourceCommit": "44115f46dc530b0e69304c7105f7d47e68a4bdb3",
+  "sourceCommitDate": "2026-09-19T08:19:23-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -21,7 +21,7 @@
       "id": "readiness",
       "title": "Readiness package",
       "when": "Week 8",
-      "gives": "For the authorizing chain and the operators: the foundation decided, where every control stands, the security plan drafted, every weakness on a clock, and who runs the platform on day two."
+      "gives": "For the authorizing chain and operators: proposed foundation decisions, control evidence and gaps, draft security documents, corrective actions and operating responsibilities for review."
     },
     {
       "id": "transformation",
@@ -49,68 +49,7 @@
     }
   },
   "dataBoundary": "public site source and fictional specimen reports only; no client, credential, tenant, CUI, DoD/IC, interview, transcript, mission, seller, studio or readiness data",
-  "publicReferences": [
-    {
-      "path": "site/index.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    },
-    {
-      "path": "site/journey.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    },
-    {
-      "path": "site/map.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    },
-    {
-      "path": "site/workshop.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    },
-    {
-      "path": "site/foundation.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    },
-    {
-      "path": "site/launch.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    },
-    {
-      "path": "site/operate.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    },
-    {
-      "path": "site/jwcc.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    },
-    {
-      "path": "site/about.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    },
-    {
-      "path": "site/deliverables.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    },
-    {
-      "path": "site/ato-acceleration.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    },
-    {
-      "path": "site/standards.html",
-      "href": "https://studio.cloud-waypoint.com/",
-      "note": "public sign-in link on the live page; 301 to pubsec.cloud-waypoint.com; nothing behind it is mirrored"
-    }
-  ],
+  "publicReferences": [],
   "excluded": [
     "studio., readiness. and seller. hosts: source, config and references (the live pages' one public sign-in link is listed above, not stripped)",
     "wrangler and deploy configuration, headers, secrets, environment files",
@@ -145,8 +84,8 @@
       "key": "closeoutprint",
       "name": "Closeout receipt",
       "package": "final",
-      "bytes": 130874,
-      "sha256": "ddbf27cfe26199ee865009f136b59295d36c2a5ad42a8b4f26bfeb7697067e5b"
+      "bytes": 130871,
+      "sha256": "9a3925690c7a4df918187512b85f95a6ec7355ba3a50a9c030a9272e25a86833"
     },
     {
       "path": "reports/natsec/conopsdoc.html",
@@ -255,8 +194,8 @@
       "key": "closeoutprint",
       "name": "Closeout receipt",
       "package": "final",
-      "bytes": 131180,
-      "sha256": "cfe410f733706b5a45ff7f46bb4ad6107fc83b9c763845db81a7abde15bebb17"
+      "bytes": 131177,
+      "sha256": "f0954ca7695c4bafbf35465cfce42e32b056e53c10b514346458e63af83ee4c7"
     },
     {
       "path": "reports/pubsec/conopsdoc.html",
@@ -341,8 +280,8 @@
     {
       "path": "site/about.html",
       "role": "site-page",
-      "bytes": 12068,
-      "sha256": "b53d55826c7df11f6c623f2d6c52e38e7b63ff3c111a1b2b74e1ea7e6cc79b64"
+      "bytes": 12816,
+      "sha256": "a8179a6b65079a560ba77d6f99e24bd86d119ecb6e566be15c7c98d944e35e35"
     },
     {
       "path": "site/assets/cloud-waypoint-social.svg",
@@ -383,8 +322,8 @@
     {
       "path": "site/assets/method-pages.css",
       "role": "site-asset",
-      "bytes": 69184,
-      "sha256": "181340e2c8a402fd780fe08881cf9abeb180d9960ef4e23bf46851af271d3492"
+      "bytes": 69200,
+      "sha256": "8c76576306544c375275766e975a21f59572c1009c7d07da10b95c8af586f643"
     },
     {
       "path": "site/assets/mountain-mark.svg",
@@ -401,56 +340,56 @@
     {
       "path": "site/ato-acceleration.html",
       "role": "site-page",
-      "bytes": 26979,
-      "sha256": "1b6432b5effca3953fe97cf837b067cce4f2670ebaa4c8d58d9689bc2c962660"
+      "bytes": 27132,
+      "sha256": "fb7125c4fbdcddb54b9d402f805265abf20edc2e4a68d52cd00fa30279f6b528"
     },
     {
       "path": "site/deliverables.html",
       "role": "site-page",
-      "bytes": 12560,
-      "sha256": "b6b5395d639ea21c7f5f5e3f213039aeb0d08c7858e9deee055a2ca998eee6c7"
+      "bytes": 15716,
+      "sha256": "7ab93b5761a6f075f33837e7878b82760bfc94bf678e43d34cc4ea16e1a00954"
     },
     {
       "path": "site/foundation.html",
       "role": "site-page",
-      "bytes": 13889,
-      "sha256": "bd3ac5b5a3ff7fd92388d71c1fe67cb526153c06cd525b0c01d394aaec24304f"
+      "bytes": 19640,
+      "sha256": "da33ddb87d3326ca53e31ab4b6c6ef64bcb51791bc17b1fc9ab3246e45f717e7"
     },
     {
       "path": "site/index.html",
       "role": "site-page",
-      "bytes": 39455,
-      "sha256": "887cb7d248d2720e8facfb98a44a391a750fef04f2c8af2ea7648e68bf9c83a6"
+      "bytes": 44305,
+      "sha256": "27c3f701c7b1d6c6f38b2e45ebe1f6620f134d71c6a3506bcf8e2fdb15b42ab8"
     },
     {
       "path": "site/journey.html",
       "role": "site-page",
-      "bytes": 21241,
-      "sha256": "bcca850264d71e0155d4ec6e87bf779c068de0504d6d5ec5240af8ea89cec937"
+      "bytes": 22526,
+      "sha256": "822b85f3f0119d35878addda6e7d7c707820d88c030d1f5e8a1c7b9363458632"
     },
     {
       "path": "site/jwcc.html",
       "role": "site-page",
-      "bytes": 11575,
-      "sha256": "504bcad0b6e4d3c47349e2338547a4c13e1b90d2cce3b6eda83c7530784e349f"
+      "bytes": 11648,
+      "sha256": "c61b2b113bdf360cad15b5583b22838d72dca352b663a467eee3b8e219e06e2c"
     },
     {
       "path": "site/launch.html",
       "role": "site-page",
-      "bytes": 11934,
-      "sha256": "a7f08024f6e5c8353ee530fb2bc4a407b8558be082b8fb9b55d9e81b653053c4"
+      "bytes": 11990,
+      "sha256": "845133fcad3f9a282f7415d370151d27800dde22d04b77b1e055c54a50e59902"
     },
     {
       "path": "site/map.html",
       "role": "site-page",
-      "bytes": 25480,
-      "sha256": "0aa0a816ba5ea23c6e0cc585626951905db98357de8ea322548e33e9a2941d76"
+      "bytes": 25873,
+      "sha256": "876e244f92020d1979c2505d3f203d6415190eb85adf972f52db861c41e5685a"
     },
     {
       "path": "site/operate.html",
       "role": "site-page",
-      "bytes": 12661,
-      "sha256": "cbad8b808175a9fdce659b5b9954a9f5b9d7f7c8e8a77ffdec26d205c8fb72e7"
+      "bytes": 12741,
+      "sha256": "323c16b181b5e0ae0fc0b95b35bb250741ae97e890b1099f76d1198ba110d1df"
     },
     {
       "path": "site/robots.txt",
@@ -461,14 +400,14 @@
     {
       "path": "site/standards.html",
       "role": "site-page",
-      "bytes": 14857,
-      "sha256": "04bcd1530beff37fb2b86fb4516ef2fc79625e1f913fd5552b3fb2eb01500a07"
+      "bytes": 15075,
+      "sha256": "c4851ee3834311d70630db5875c709f1d6ec567c82146a4f6b61c9c6b83acc6a"
     },
     {
       "path": "site/workshop.html",
       "role": "site-page",
-      "bytes": 13004,
-      "sha256": "f9155235e1c28c6f4dfda7f5858a6f43adc975684017db1745b5d6e4c3fb6f90"
+      "bytes": 11274,
+      "sha256": "6dd90bdce3591604e8c74eb272d4674c22fc1289a80498b9197d2bec5af4e1c0"
     }
   ]
 }
