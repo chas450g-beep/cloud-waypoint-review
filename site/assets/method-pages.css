@@ -455,3 +455,12 @@ html[data-page=home] .executive .page-hero h1,.executive .page-hero h1{max-width
 .navigator-measure li{margin:.55rem 0}.navigator-boundary{margin-bottom:5rem;border:2px solid #7251a3;border-radius:10px}.navigator-source{font-size:.75rem;color:var(--muted);overflow-wrap:anywhere}
 @media(max-width:850px){.navigator-hero-map{grid-template-columns:repeat(4,1fr)}.navigator-entry>div,.navigator-common ol{grid-template-columns:repeat(2,1fr)}.navigator-crosswalk ol{grid-template-columns:repeat(2,1fr)}.navigator-stage-grid{grid-template-columns:1fr}.navigator-handovers li{grid-template-columns:1fr}.navigator-path>div{padding-left:1.25rem}}
 @media(max-width:540px){.navigator-hero-map{grid-template-columns:repeat(2,1fr)}.navigator-entry>div,.navigator-common ol,.navigator-crosswalk ol{grid-template-columns:1fr}.navigator-path summary{grid-template-columns:1fr}.navigator-stage>header{grid-template-columns:1fr}.navigator-entry,.navigator-common,.navigator-crosswalk,.navigator-pathways,.navigator-stage,.navigator-measure,.navigator-boundary{padding:3.5rem 1.1rem}}
+
+/* Public supporting pages: turn long statement blocks into readable evidence panels. */
+body.annex .statement>p,body.annex .statement .statement-body{border:1px solid var(--line);border-left:3px solid var(--gold-edge);background:var(--surface);padding:1.4rem;align-self:start}
+body.annex .statement .statement-body>p:last-child{margin-bottom:0}
+body.annex .phase-grid>header{border-left:3px solid var(--gold-edge);padding-left:1.25rem}
+body.annex .stdlist li{border:1px solid var(--line);background:var(--paper);padding:.9rem 1rem .9rem 1.5rem;min-width:0}
+body.annex .stdlist li:before{left:.65rem}
+body.annex .exec-split>div{border:1px solid var(--line);border-top:3px solid var(--gold-edge);background:var(--paper);padding:1.2rem}
+@media(max-width:600px){body.annex .statement>p,body.annex .statement .statement-body{padding:1.1rem}}

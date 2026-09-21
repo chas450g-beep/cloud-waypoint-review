@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "0136786dd5640c72714fe9760b8985da7b77a35e",
-  "sourceCommitDate": "2026-09-19T20:53:19-06:00",
+  "sourceCommit": "d778481fb49a856d455d4f7b3e0f8be134ae93f5",
+  "sourceCommitDate": "2026-09-20T18:55:38-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -65,7 +65,7 @@
       "name": "Assessment",
       "package": "midpoint",
       "bytes": 221389,
-      "sha256": "c26b716fd001ae0762af90c99a02ac64f01ec2da4e27f6ac3a8a5211e707f2b0"
+      "sha256": "9b83be7175cbf26dc86d0135c8f8814a0313405cc5b16530511645212844dc3c"
     },
     {
       "path": "reports/natsec/authprint.html",
@@ -75,7 +75,7 @@
       "name": "Package readiness",
       "package": "readiness",
       "bytes": 143095,
-      "sha256": "a59acfd91c5b1bd4237e27f96ee9821e5bebedf7a36ac53e621d521dfe409e0c"
+      "sha256": "655f657ac95168ad6f209bc9cde75002e539633bb5475367a5e882f3cd8be279"
     },
     {
       "path": "reports/natsec/closeoutprint.html",
@@ -85,7 +85,7 @@
       "name": "Closeout receipt",
       "package": "final",
       "bytes": 130871,
-      "sha256": "37ed54adcc805e64d954df8486a243c13dd83879d249ddf1202c4b125be2bf82"
+      "sha256": "7865cb2877310c84868bc84866d50d3a9b786561a43dc01f3813020f3e2451b3"
     },
     {
       "path": "reports/natsec/conopsdoc.html",
@@ -94,8 +94,8 @@
       "key": "conopsdoc",
       "name": "CONOPS document",
       "package": "readiness",
-      "bytes": 210579,
-      "sha256": "35173a2cbaba07970e83fc4be6424e920ccb40ab6932df5c178f1b517f16c97c"
+      "bytes": 210550,
+      "sha256": "335091fc990b84200ff52c12e421fa64c56eda50608ec01ec3510bc7d36637ef"
     },
     {
       "path": "reports/natsec/execbrief.html",
@@ -104,8 +104,8 @@
       "key": "execbrief",
       "name": "Executive brief",
       "package": "transformation",
-      "bytes": 135790,
-      "sha256": "502b5213df8a16d0b16aa62bd8daecf0e386768bb9c4c01bbcdc1c90fc5f7aaa"
+      "bytes": 136005,
+      "sha256": "8f3775e3108ced13235d9575a8cca85fd2e2df180b3e35871878e1d243a4fb7b"
     },
     {
       "path": "reports/natsec/foundationsprint.html",
@@ -115,7 +115,7 @@
       "name": "Foundations receipt",
       "package": "midpoint",
       "bytes": 134364,
-      "sha256": "63ce3846dcca25b9493aac9821ea372378c0b316c7e91f62772572ff090a685e"
+      "sha256": "5872c51d6a4a77c97a64e54608ab5f0efc0d85cf13d8119037e1a10c7a4e46f7"
     },
     {
       "path": "reports/natsec/gssreceipt.html",
@@ -125,7 +125,7 @@
       "name": "GSS exit receipt",
       "package": "readiness",
       "bytes": 140998,
-      "sha256": "9104ac041871cab95966c0d7981bc23604682c436a04f77aefff02e0a6852d76"
+      "sha256": "2a65e72c457bd0fd145222d1184e8ef9efc869613f3cce1052bd4760b57f1304"
     },
     {
       "path": "reports/natsec/poamprint.html",
@@ -135,7 +135,7 @@
       "name": "Plan of action & milestones",
       "package": "readiness",
       "bytes": 120575,
-      "sha256": "37a6668fe699d25018b0057b090c4465d5c7a73a8ab4332731a8622a15fc9777"
+      "sha256": "df11d463abb4a70fdba888bae6ce0405dd5c5e27d9b3102ab0588e7001d48759"
     },
     {
       "path": "reports/natsec/roadprint.html",
@@ -145,7 +145,7 @@
       "name": "The road ahead",
       "package": "transformation",
       "bytes": 170688,
-      "sha256": "a7d373e82aa32ba35a32e261b1936e3648a8a5bae3e5b468904fde8f9002e4c5"
+      "sha256": "27c87c7fba3dc4965dabb0d4306ff6028aa1d709f90675bd56cd9c79b944a311"
     },
     {
       "path": "reports/natsec/sspprint.html",
@@ -155,7 +155,7 @@
       "name": "System security plan — draft",
       "package": "readiness",
       "bytes": 244327,
-      "sha256": "c330025d96f4878cf5b669178f9eea788c0edb988535068536e8f33437ab15d3"
+      "sha256": "46b7f79ee77fa77fff5f20d502d1f936d98f89851205767721e42f023dfcd341"
     },
     {
       "path": "reports/natsec/transplan.html",
@@ -165,7 +165,7 @@
       "name": "Transformation plan",
       "package": "transformation",
       "bytes": 211713,
-      "sha256": "40aa9de308aaf2e24cf9679a4360b3425a988d5c84ef89824e451c8859100db8"
+      "sha256": "18017bc1c36e61f84d72c3f3ba88d040032b1824d02ebe582564889b7f8bdf35"
     },
     {
       "path": "reports/pubsec/assessprint.html",
@@ -175,7 +175,7 @@
       "name": "Assessment",
       "package": "midpoint",
       "bytes": 221695,
-      "sha256": "37ec7b71a7a9297c09fd313af396d59c410f1e03741d2d1b50b80ebda0736079"
+      "sha256": "043781722c6d86743b1a12a6dad68328d26b80dde903d8b81a773e66064e04f2"
     },
     {
       "path": "reports/pubsec/authprint.html",
@@ -185,7 +185,7 @@
       "name": "Package readiness",
       "package": "readiness",
       "bytes": 143401,
-      "sha256": "113fced2137950d404a02b8e60595b51433537658dbe148a82c52c3fa80b733c"
+      "sha256": "a7c7c04bb80f00beb07380c2e86c70ea68b17f6631b6b3055d1ac028bc0ab03e"
     },
     {
       "path": "reports/pubsec/closeoutprint.html",
@@ -195,7 +195,7 @@
       "name": "Closeout receipt",
       "package": "final",
       "bytes": 131177,
-      "sha256": "4d8d294a60b31ae2f014884cd54bb9bc253d5eaa60313555b2eb643472533109"
+      "sha256": "6261ab67b9c5a3db4070dfebb6fee54f8c06776beec906b51c5c23da32050b4f"
     },
     {
       "path": "reports/pubsec/conopsdoc.html",
@@ -204,8 +204,8 @@
       "key": "conopsdoc",
       "name": "CONOPS document",
       "package": "readiness",
-      "bytes": 210885,
-      "sha256": "4ba0d1182eda39b25d67715ddbd7f5bd6ee68f900cedcdac265a6b4f7dfcd84f"
+      "bytes": 210856,
+      "sha256": "4feb7a6e8c4cb68842f9f22c80f15d4dec5c700af6fb9891de8ed4e924156dcc"
     },
     {
       "path": "reports/pubsec/execbrief.html",
@@ -214,8 +214,8 @@
       "key": "execbrief",
       "name": "Executive brief",
       "package": "transformation",
-      "bytes": 136096,
-      "sha256": "3628039b49725634e1d9d911dac6edaa2f8565efcbab04f363454c6b46db2b78"
+      "bytes": 136311,
+      "sha256": "dc3a8903a11a3b9f0c7b6a370ee6cbbadb14d18b47780fba78a1378479b12b58"
     },
     {
       "path": "reports/pubsec/foundationsprint.html",
@@ -225,7 +225,7 @@
       "name": "Foundations receipt",
       "package": "midpoint",
       "bytes": 134670,
-      "sha256": "18e8ef9cc1bfec944af95c3fd8ee56d6218c63c6716dd172bfe80ea3ae3d5051"
+      "sha256": "ae829e130040906da4790d1d69b98037b71b2fc139c5512cd24f23c1663cdc20"
     },
     {
       "path": "reports/pubsec/gssreceipt.html",
@@ -235,7 +235,7 @@
       "name": "GSS exit receipt",
       "package": "readiness",
       "bytes": 141304,
-      "sha256": "0f9fe6c6e6729e0595a91d0f786e2cef0a9dcd1ef2ec6324c6d8feb1daa8b02d"
+      "sha256": "16a92ddc1b81693b1f1bc4720582af68aa8251102852ec0f797b64028e7cee0e"
     },
     {
       "path": "reports/pubsec/poamprint.html",
@@ -245,7 +245,7 @@
       "name": "Plan of action & milestones",
       "package": "readiness",
       "bytes": 120881,
-      "sha256": "ede49469108935148846463a9896f2ed2c5dbfe231a4bb7ad34d543bc49faee8"
+      "sha256": "0575c5b17fb53d29fa6c2c371d6b9a068cf5190a6d529655c5d53d5e5e527a4b"
     },
     {
       "path": "reports/pubsec/roadprint.html",
@@ -255,7 +255,7 @@
       "name": "The road ahead",
       "package": "transformation",
       "bytes": 170994,
-      "sha256": "0d137bb77e3eb5f6294952534fe24f3b133c82213f8866b21f72d89573be9b8f"
+      "sha256": "bbf27bbb88f4e8b7e39c90f24991e53db28eb5c26d0c2033530fe540923317f1"
     },
     {
       "path": "reports/pubsec/sspprint.html",
@@ -265,7 +265,7 @@
       "name": "System security plan — draft",
       "package": "readiness",
       "bytes": 244633,
-      "sha256": "a25cd5ded44e53355c08533b7e6657fa9c85ae820259ce46897d6f08b8a54276"
+      "sha256": "472664252b92d789de8aab3f51d14182ee061c5e1f4f69cdc3afb0ce4a676e34"
     },
     {
       "path": "reports/pubsec/transplan.html",
@@ -275,13 +275,13 @@
       "name": "Transformation plan",
       "package": "transformation",
       "bytes": 212019,
-      "sha256": "3b1aa8ef926fbd5e2eac1b71457f4439537abb7a415c4373af86388ea641ca2b"
+      "sha256": "9208aa8d8dee3af825311c15dd73553606b7dc6df9bfc53346a5f70e387b67df"
     },
     {
       "path": "site/about.html",
       "role": "site-page",
       "bytes": 12892,
-      "sha256": "34c2d2f0191cbb5a6c440891ad3819135a7ee2582ae34272373bf71abbce9bac"
+      "sha256": "4b58d503633d6c8057fc19835b006163f3b2f41245f4daff8e8ed57459aa8481"
     },
     {
       "path": "site/assets/cloud-waypoint-social.svg",
@@ -322,8 +322,8 @@
     {
       "path": "site/assets/method-pages.css",
       "role": "site-asset",
-      "bytes": 69200,
-      "sha256": "8c76576306544c375275766e975a21f59572c1009c7d07da10b95c8af586f643"
+      "bytes": 70039,
+      "sha256": "704eb36d2d63e667868c91caad064714483a31df864722e1a222b6589a64e3bf"
     },
     {
       "path": "site/assets/mountain-mark.svg",
@@ -341,55 +341,55 @@
       "path": "site/ato-acceleration.html",
       "role": "site-page",
       "bytes": 27220,
-      "sha256": "b0e9f53a5913789e55accfa7423567c4f32607b9ee5b5fe3e56516fa84162f70"
+      "sha256": "8002a0f547882339fe8f633ee54c9be21cce42a5113491c5a7cb6a3bd425a771"
     },
     {
       "path": "site/deliverables.html",
       "role": "site-page",
-      "bytes": 11017,
-      "sha256": "d151fc27fbcbae3df199f50a909438b047fb8a2c3ec45aa1e80e33a84cf6bc6e"
+      "bytes": 11886,
+      "sha256": "50516e798a704a4af09395c24b6a12eb97aeba0ccb18c24691c9bed78ca971c1"
     },
     {
       "path": "site/foundation.html",
       "role": "site-page",
       "bytes": 19667,
-      "sha256": "2c685b37e2ca2c5fa740a44cedda47c61c0041a82312398bd24c1f1c6e0ab68e"
+      "sha256": "eda2e54657bcdf9cc19a79d6f40f80b85459e2866562b1c37569de1026d391b0"
     },
     {
       "path": "site/index.html",
       "role": "site-page",
       "bytes": 9374,
-      "sha256": "bae11d2a7e67e97cc986d50c43feb352c9750d8f952f24aa74778e4538c8e9d5"
+      "sha256": "d2120a43452ac8f4ef5fdb51c7b38bd572c0fa86891c1631e4d8e0a871b874d3"
     },
     {
       "path": "site/journey.html",
       "role": "site-page",
-      "bytes": 15704,
-      "sha256": "3288797505b0f5e8bcbfa48ff51d1ee64b11d610dc84681c15d5b1daf826ee2f"
+      "bytes": 15822,
+      "sha256": "c4bab34d1e275d88dd2539e1c8ca34f7755078b00f60099de60b9b6d1317896e"
     },
     {
       "path": "site/jwcc.html",
       "role": "site-page",
       "bytes": 11736,
-      "sha256": "126ef8d5a16d7974cdfde9ea683e23c0b9881a5d140dd90b507a7264da43aa41"
+      "sha256": "499b33253340a96933751307eda16a7f19d84a6ddabbfb3a2b365296637d0c2c"
     },
     {
       "path": "site/launch.html",
       "role": "site-page",
       "bytes": 12078,
-      "sha256": "e5cc636c0e8679407230fdc1fdb5ee166a5a3dc3fa2d05e4aa43efaf8aefc2e3"
+      "sha256": "82c0ffb1919328a4f16e14f8b555f0fdd2d69d35413ccc0e8bdf583ac6032f6d"
     },
     {
       "path": "site/map.html",
       "role": "site-page",
       "bytes": 25963,
-      "sha256": "bcab0b5dec538e6f64bde357eb45fe6c03515fb2ce11c5392fa8c34f83e6a042"
+      "sha256": "d2f8e536d5b676a62ad7c922c5bff077d5f986df10bd4d6aa1396f0dfd920a0a"
     },
     {
       "path": "site/operate.html",
       "role": "site-page",
       "bytes": 12829,
-      "sha256": "ac3e4fd99828c3e9dd134a8f006d505bf4b21a91a3baa6c33d4f1e26e510440c"
+      "sha256": "7b6d52569f510ca57aeface692c13ab031ab289f17a12c2904a25604d81e3320"
     },
     {
       "path": "site/robots.txt",
@@ -401,13 +401,13 @@
       "path": "site/standards.html",
       "role": "site-page",
       "bytes": 15163,
-      "sha256": "bc5cf74e8349376c9c18691b9da24b19f792cde415014eab8cb5b8f1fda4fd1d"
+      "sha256": "36121260e4bdb858ae7a544e511828b667f45643e2c66141b8a5acf80af80e8e"
     },
     {
       "path": "site/workshop.html",
       "role": "site-page",
-      "bytes": 14246,
-      "sha256": "5eaf1e6d37ba8489d577b1eded76e8592e7eebd1ef3354daa27636ea1e69523a"
+      "bytes": 15318,
+      "sha256": "826dfedf34146da2b6d7685f5095394517f18e1dcafede16a46437bc6d2c4271"
     }
   ]
 }
