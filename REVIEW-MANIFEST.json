@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "1206ae311a2a7d350c31548c3ea2272d57b1c451",
-  "sourceCommitDate": "2026-09-21T13:14:37-06:00",
+  "sourceCommit": "bdb013e6562fdaa37e510044510d10b78339a8ef",
+  "sourceCommitDate": "2026-09-21T15:55:48-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
