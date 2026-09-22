@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "3ecf4f99f2ab1b073d0efd3a8d1336d5e8d37811",
-  "sourceCommitDate": "2026-09-21T20:36:26-06:00",
+  "sourceCommit": "1d56bb4b8a519052590d00932acc867fc6836e16",
+  "sourceCommitDate": "2026-09-21T21:01:26-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -65,7 +65,7 @@
       "name": "Assessment",
       "package": "midpoint",
       "bytes": 221389,
-      "sha256": "30a53a3138e7fecf0f32ce6f3c02ece2c8ffc59556e52578650b09266e8a7198"
+      "sha256": "fd196ee72b824b87c18d51888cf3038b663ae9d6d128d49c78233a372bf6a56b"
     },
     {
       "path": "reports/natsec/authprint.html",
@@ -175,7 +175,7 @@
       "name": "Assessment",
       "package": "midpoint",
       "bytes": 221695,
-      "sha256": "8a5d0e523c36f5cb21ba67f17178b2fac745e5d903c6c90bde908f4dbac4f9b4"
+      "sha256": "3e019ba3a88718b2d93a615630fe34835674d3e7e3d0b80787475e42c8d5ce2f"
     },
     {
       "path": "reports/pubsec/authprint.html",
