@@ -3,8 +3,8 @@
   "mirror": "https://github.com/chas450g-beep/cloud-waypoint-review",
   "canonical": "chas450g-beep/cloud-waypoint (private); the mirror is derived, never edited",
   "policy": "read-only review mirror; no pull requests are accepted; the web lane returns findings and work orders, never changes",
-  "sourceCommit": "b46f8a1b195fa3f3e4877fca6936d47a1cedfb22",
-  "sourceCommitDate": "2026-09-22T21:19:23-06:00",
+  "sourceCommit": "4fb0cbd6617eb0d1f1719afd517f2f95c4cb87f0",
+  "sourceCommitDate": "2026-09-22T22:21:48-06:00",
   "surfaces": {
     "site": "https://cloud-waypoint.com/",
     "reports": "https://reports.cloud-waypoint.com/ (owner-only behind Cloudflare Access; the reports here are the same prints)"
@@ -144,8 +144,8 @@
       "key": "roadprint",
       "name": "The road ahead",
       "package": "transformation",
-      "bytes": 170985,
-      "sha256": "a0f9b16327e6a262e5e727e6b6f413c915c8f49624fe60d01bdd3c4055e9530e"
+      "bytes": 171144,
+      "sha256": "c2a13d913482218d57058cbdbdea112d25e620a035639a03b2d4ebda19ab3c2b"
     },
     {
       "path": "reports/natsec/sspprint.html",
@@ -254,8 +254,8 @@
       "key": "roadprint",
       "name": "The road ahead",
       "package": "transformation",
-      "bytes": 171291,
-      "sha256": "5160a71311d54595d62c1b6056ffa43adee979d9ef465cc64d473a983d133201"
+      "bytes": 171450,
+      "sha256": "73255dba42beb2ca439bc49cc600c24b7718f562c2a9cb76366a4c716e58a0ce"
     },
     {
       "path": "reports/pubsec/sspprint.html",
