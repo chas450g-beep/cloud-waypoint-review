@@ -1228,6 +1228,66 @@ table.positions td.here{box-shadow:inset 0 0 0 2px var(--cw-navy-800)}
 .wp-more>summary{cursor:pointer;margin:6px 0;color:var(--cw-accent)}
 .instrument td.nw{white-space:nowrap}   /* CO-R108/WO-021: an id or a date never breaks mid-token */
 
+/* CO-R150 — the single desk (behind the Desk switch): Start, one rail with two lenses, the page. Neon is the owner's
+   "You are here" and nothing else on the desk may be this colour. */
+:root{--cw-neon:#39ff14}
+body.desk header.quiet.topbar .sections{display:none}
+body.desk #cw-return{display:none}
+body.desk .layout{display:grid;grid-template-columns:262px minmax(0,1fr);min-height:calc(100vh - 120px)}
+body.desk nav#nav{display:block;position:sticky;top:0;align-self:start;max-height:100vh;overflow:auto;padding:10px 10px 24px;border:0;border-right:1px solid var(--cw-faint);background:var(--cw-surface)}
+body.desk nav#nav .lens{display:flex;gap:4px;margin:0 0 8px;padding:3px;border:1px solid var(--cw-faint);border-radius:7px}
+body.desk nav#nav .lens button{flex:1 1 0;border:0;background:transparent;font:600 12px/1.2 var(--cw-font);color:var(--cw-slate);padding:7px 6px;border-radius:5px;cursor:pointer}
+body.desk nav#nav .lens button.on{background:var(--cw-navy);color:#fff}
+body.desk nav#nav a{display:flex;align-items:center;gap:8px;padding:7px 8px 7px 14px;min-height:36px;border:0;border-left:2px solid transparent;margin:0;border-radius:0 5px 5px 0;white-space:normal;font:500 13px/1.25 var(--cw-font);color:var(--cw-slate)}
+body.desk nav#nav a>span:first-child{flex:1 1 auto}
+body.desk nav#nav a.on{color:var(--cw-navy);background:var(--cw-cell);border-left-color:var(--cw-navy);font-weight:600}
+body.desk nav#nav a.start{font-weight:600;color:var(--cw-navy);padding-left:10px;margin-bottom:6px}
+body.desk nav#nav .grp{display:block;padding:8px 0 3px 14px;opacity:.8}
+body.desk nav#nav details.dg{border-top:1px solid var(--cw-faint);padding:2px 0}
+body.desk nav#nav details.dg>summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer;padding:9px 6px 9px 10px;border-radius:6px;min-height:40px}
+body.desk nav#nav details.dg>summary::-webkit-details-marker{display:none}
+body.desk nav#nav details.dg>summary::before{content:"▸";font-size:10px;color:var(--cw-slate);width:10px;flex:0 0 auto}
+body.desk nav#nav details.dg[open]>summary::before{content:"▾"}
+body.desk nav#nav details.dg>summary:hover{background:var(--cw-cell)}
+body.desk nav#nav details.dg>summary:focus-visible{outline:2px solid var(--cw-blue);outline-offset:-2px}
+body.desk nav#nav .dg-label{display:flex;flex-direction:column;gap:1px;flex:1 1 auto;min-width:0}
+body.desk nav#nav .dg-label b{font:700 11.5px/1.2 var(--cw-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--cw-navy-800)}
+body.desk nav#nav .dg-label small{font-size:11px;color:var(--cw-slate)}
+body.desk nav#nav .dg-count{font:600 11px/1 var(--cw-mono);color:var(--cw-slate);white-space:nowrap}
+body.desk nav#nav .dg-body{padding:0 0 6px 6px}
+body.desk nav#nav a .navst{font-size:10.5px;color:var(--cw-slate)}
+.here-chip{display:inline-block;font:800 9px/1 var(--cw-mono);letter-spacing:.1em;color:#0b2a05;background:var(--cw-neon);border-radius:3px;padding:3px 5px;white-space:nowrap;flex:0 0 auto}
+body.desk nav#nav a.here,body.desk nav#nav details.dg.here:not([open])>summary{box-shadow:inset 3px 0 0 var(--cw-neon)}
+body.desk nav#nav a.here::before{content:"➜";color:var(--cw-neon);font-size:14px;margin-left:-12px;margin-right:2px;text-shadow:0 0 6px var(--cw-neon)}
+body.desk .stagelead .desk-next{margin:8px 0 0;font-size:13px;color:var(--cw-navy)}
+body.desk .stagelead .desk-next .nt-k{font:700 10px/1 var(--cw-mono);letter-spacing:.08em;color:var(--cw-accent);margin-right:6px}
+body.desk .stagelead .desk-next small{color:var(--cw-slate)}
+body.desk .desk-say{margin:10px 0 0;border:1px solid var(--cw-faint);border-radius:7px;background:var(--cw-surface)}
+body.desk .desk-say>summary{cursor:pointer;padding:8px 12px;font-weight:600;font-size:13px;color:var(--cw-navy)}
+body.desk .desk-say>div{padding:0 12px 10px}
+body.desk .desk-say textarea{width:100%;box-sizing:border-box;font:inherit;font-size:13.5px;padding:8px;border:1px solid var(--cw-faint);border-radius:5px}
+body.desk .desk-say .addrow{display:flex;gap:10px;align-items:center;margin-top:6px}
+.doors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:18px 0 26px}
+.door{border:1px solid var(--cw-faint);border-radius:10px;padding:16px 18px;background:var(--cw-surface);display:flex;flex-direction:column;gap:8px}
+.door h2{margin:0;font-size:16px}
+.door p{margin:0;font-size:13px;color:var(--cw-slate);line-height:1.45}
+.door .door-note{color:var(--cw-navy);font-weight:600}
+.door .doorrow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:4px}
+.door .doorrow label{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--cw-slate)}
+.door .doorrow input[type=text],.door .doorrow input[type=date]{font:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--cw-faint);border-radius:5px;min-width:160px}
+.strip-h{margin-top:8px}
+.transit{display:flex;align-items:flex-start;gap:0;margin:12px 0 30px;overflow-x:auto;padding:14px 4px 6px}
+.transit .track{flex:1 1 18px;min-width:10px;height:3px;background:var(--cw-faint);margin-top:9px}
+.transit a.station{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:5px;min-width:88px;text-decoration:none;color:var(--cw-navy);position:relative;padding:0 4px}
+.transit a.station .dot{width:20px;height:20px;border-radius:50%;border:3px solid var(--cw-faint);background:var(--cw-surface);box-sizing:border-box}
+.transit a.station.prog .dot{border-color:var(--cw-blue)}
+.transit a.station.done .dot{border-color:var(--cw-navy);background:var(--cw-navy)}
+.transit a.station.now .dot{border-color:var(--cw-navy);box-shadow:0 0 0 3px var(--cw-surface),0 0 0 5px var(--cw-navy)}
+.transit a.station b{font:700 11px/1.2 var(--cw-mono);letter-spacing:.06em;text-transform:uppercase;text-align:center}
+.transit a.station small{font-size:11px;color:var(--cw-slate)}
+.transit a.station .here-chip{position:absolute;top:-14px}
+@media(max-width:900px){body.desk .layout{display:block}body.desk nav#nav{position:static;max-height:none;border-right:0;border-bottom:1px solid var(--cw-faint)}.doors{grid-template-columns:1fr}}
+
 /* the printed look, on screen */
 .navtoggle{display:none!important}
 
